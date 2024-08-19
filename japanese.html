@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css"> <!-- Link to the existing CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/japan.jpg" alt="Japanese Cuisine Image">
+            <div id="overlay">Japanese Cuisine</div>
+            <div id="small-overlay">Japanese Cuisine</div>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side-panel">
+        <h3>Popular Dishes</h3>
+        <p>-------------------------------------</p>
+        <ul>
+        <h3><a href="#sushi">Sushi</a></h3>
+        <h3><a href="#ramen">Ramen</a></h3>
+        <h3><a href="#tempura">Tempura</a></h3>
+        <h3><a href="#teriyaki">Teriyaki</a></h3>
+        <h3><a href="#misosoup">Miso Soup</a></h3>
+        </ul>
+    </div>
+
+    <div class="cuisine-page">
+
+        <div class="dish">
+            <a href="foodList.html?food=Sushi" id="sushi"><img src="images/sushi.jpg" alt="Sushi" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Sushi">Sushi</a></h3>
+            <p>A traditional Japanese dish made with vinegared rice, seafood, and vegetables.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Ramen" id="ramen"><img src="images/ramen.jpg" alt="Ramen" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Ramen">Ramen</a></h3>
+            <p>A popular Japanese noodle soup dish consisting of wheat noodles, broth, and toppings.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Tempura" id="tempura"><img src="images/tempura.jpg" alt="Tempura" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Tempura">Tempura</a></h3>
+            <p>Lightly battered and deep-fried seafood or vegetables, often served with dipping sauce.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Teriyaki" id="teriyaki"><img src="images/teriyaki.jpg" alt="Teriyaki" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Teriyaki">Teriyaki</a></h3>
+            <p>A cooking technique where foods are grilled or broiled with a glaze of soy sauce, mirin, and sugar.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Miso%20Soup" id="misosoup"><img src="images/miso-soup.jpg" alt="Miso Soup" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Miso%20Soup">Miso Soup</a></h3>
+            <p>A traditional Japanese soup made from miso paste, tofu, and seaweed.</p>
+        </div>
+    </div>
+
+    <!--Link to java script-->
+    <script src="foodfunction.js"></script>
+    <script src="cuisinepagefunction.js"></script>
+
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,359 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #181313;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background: linear-gradient(90deg, #b65739, #bc722c);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Menu Styles */
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 80%;
+}
+
+.nav-bar ul li {
+    position: relative; /* Position for dropdown menu */
+}
+
+.nav-bar ul li a {
+    color: #edffef;
+    padding: 8px 25px;
+    text-decoration: none;
+    display: flex; /* Align text and icon horizontally */
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-bar ul li a i {
+    margin-left: 8px; /* Space between text and icon */
+}
+
+.nav-bar ul li:hover a {
+    background-color: #ff9900;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Dropdown Menu */
+.cuisineMenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Align dropdown below the parent */
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 9000;
+    width: max-content; /* Adjust to fit content width */
+    padding: 0; /* Remove padding around the dropdown */
+    margin: 0; /* Remove margin around the dropdown */
+}
+
+.nav-bar ul li:hover .cuisineMenu {
+    display: block; /* Show dropdown on hover */
+}
+
+.cuisineMenu li {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.cuisineMenu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.cuisineMenu li a:hover {
+    color: #ffffff;
+    background-color: #abbdbe;
+}
+.dropdown .cuisineMenu li a:hover {
+    background: linear-gradient(90deg, #b65739, #bc722c);
+
+}
+
+#container {
+    position: relative;
+    margin-top: 270px;
+    margin-left: 50px; /* Added left margin */
+}
+
+#image {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+    z-index: 1000;
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 30%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    z-index: 2000;
+    transition: transform 0.1s ease, font-size 0.1s ease;
+    white-space: nowrap;
+    /* Text shadow for visibility */
+    text-shadow: 
+    3px 3px 0px #000,
+    -1px -1px 0px #000, 
+    1px -1px 0px #000, 
+    -1px 1px 0px #000,
+    1px 1px 0px #000;
+}
+
+#content {
+    position: relative;
+    padding-left: 50px; /* Adjusted padding to align with container */
+    width: calc(100% - 100px); /* Adjusted width */
+    background-color: white;
+}
+
+/* SIDE PANEL */
+.side-panel {
+    position: fixed;
+    right: 0;
+    top: 280px;
+    width: 200px;
+    height: calc(100vh - 100px);
+    padding: 20px;
+    background: rgba(226, 226, 226, 0.8); /* Default background */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1500;
+    transition: transform 0.1s ease;
+}
+
+.side-panel h3 {
+    margin-top: 0;
+}
+
+.side-panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-panel ul li {
+    margin-bottom: 10px;
+}
+
+.side-panel ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.side-panel ul li a:hover {
+    color: #ff0;
+}
+
+.dish {
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9; /* Light background for the box */
+    border: 1px solid #ddd; /* Light border for the box */
+    border-radius: 10px; /* Rounded corners for the box */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    max-width: 800px; /* Optional: Limit the box width */
+    margin: 20px auto; /* Center the box and add spacing between them */
+}
+
+.dish img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.dish img:hover {
+    opacity: 0.8;
+}
+
+.dish h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #213032;
+    text-align: center;
+}
+
+.dish p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #292929;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+/*Footer section*/
+footer{
+    margin-top: 20%;
+    background: #b65739;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Link Styles */
+a {
+    color: #213032;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+a:hover {
+    color: #b87e11;
+}
+
+
+/*Hide menu at full size*/
+.small-bar{
+    display: none;
+}
+#small-overlay{
+    display: none;
+}
+/*Phone size*/
+@media screen and (max-width: 510px) {
+    .side-panel{
+        display: none;
+    }
+    .nav-bar ul li{
+        display: none;
+    }
+    #overlay{
+        display: none;
+    }
+    #small-overlay{
+        display: flex;
+        position: absolute;
+        color: #ffffff;
+        top: 40%;
+        left: 10%;
+        z-index: 2000;
+        font-size: 40px;
+        /* Text shadow for visibility */
+        text-shadow: 
+        3px 3px 0px #000,
+        -1px -1px 0px #000, 
+        1px -1px 0px #000, 
+        -1px 1px 0px #000,
+        1px 1px 0px #000;
+    }
+    .small-bar{
+        display: flex;
+    }
+    .small-bar {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Ensure full width */
+        
+        position: relative; /* Positioning context for children */
+        margin-bottom: 0; /* Remove margin to avoid shifting */
+    }
+    .menu-icon {
+        font-size: 40px;
+        cursor: pointer;
+        color: #ffff;
+        position: fixed;
+        top: 20px; /* Position from the top */
+        left: 20px; /* Position from the left */
+    }
+    #close {
+        margin: 20px;
+        font-size: 20px;
+        color: #ffff;
+        cursor: pointer;
+    }
+    #menu li a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffff;
+        margin: 5px 0;
+        transition: color 0.3s ease; /* Smooth color transition */
+    }
+    #menu {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+        z-index: 10000; /* Ensure it's above the background */
+    }
+    #menucontainer {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-135deg, #b65739, #1b765e);
+        text-align: center;
+        transition: left 0.6s ease; /* Transition only the left position */
+        z-index: 9999; /* Ensure it covers all content */
+    }
+    footer {
+        font-size: 10px !important;
+    }
+}
+
+
+

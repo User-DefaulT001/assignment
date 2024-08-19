@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysian Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css"> <!-- Link to the existing CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/malaysian.jpg" alt="Malaysian Cuisine Image">
+            <div id="overlay">Malaysian Cuisine</div>
+            <div id="small-overlay">Malaysian Cuisine</div>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side-panel">
+        <h3>Popular Dishes</h3>
+        <p>-------------------------------------</p>
+        <ul>
+        <h3><a href="#nl">Nasi Lemak</a></h3>
+        <h3><a href="#r">Rendang</a></h3>
+        <h3><a href="#s">Satay</a></h3>
+        <h3><a href="#ckt">Char Kway Teow</a></h3>
+        <h3><a href="#rc">Roti Canai</a></h3>
+        </ul>
+    </div>
+
+    <div class="cuisine-page">
+
+        <div class="dish">
+            <a href="foodList.html?food=Nasi%20Lemak" id="nl"><img src="images/nasi-lemak.jpg" alt="Nasi Lemak" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Nasi%20Lemak">Nasi Lemak</a></h3>
+            <p>A fragrant rice dish cooked in coconut milk, served with sambal, anchovies, peanuts, boiled egg, and cucumber.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Rendang" id="r"><img src="images/rendang.jpg" alt="Rendang" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Rendang">Rendang</a></h3>
+            <p>A rich and tender coconut beef stew which is explosively flavorful.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Satay" id="s"><img src="images/satay.jpg" alt="Satay" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Satay">Satay</a></h3>
+            <p>Skewered and grilled meat served with peanut sauce, rice cakes, and raw vegetables.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Char%20Kway%20Teow" id="ckt"><img src="images/char-kway-teow.jpg" alt="Char Kway Teow" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Char%20Kway%20Teow">Char Kway Teow</a></h3>
+            <p>Stir-fried flat noodles with prawns, eggs, beansprouts, and chives in a sweet soy sauce.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Roti%20Canai" id="rc"><img src="images/roti-canai.jpg" alt="Roti Canai" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Roti%20Canai">Roti Canai</a></h3>
+            <p>A flaky flatbread served with dhal (lentil curry) or other types of curries.</p>
+        </div>
+        
+    </div>
+
+    <!--Link to java script-->
+    <script src="foodfunction.js"></script>
+    <script src="cuisinepagefunction.js"></script>
+
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+    </footer>
+</body>
+
+</html>

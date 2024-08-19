@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/korean.jpg" alt="Korean Cuisine Image">
+            <div id="overlay">Korean Cuisine</div>
+            <div id="small-overlay">Korean Cuisine</div>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side-panel">
+        <h3>Popular Dishes</h3>
+        <p>-------------------------------------</p>
+        <ul>
+        <h3><a href="#bibi">Bibimbap</a></h3>
+        <h3><a href="#coldn">Korean Cold Noodle Soup (Mul Naengmyeon)</a></h3>
+        <h3><a href="#spicyck">Spicy Carrot Kimchi</a></h3>
+        <h3><a href="#kbkfr">Kimchi Bokumbap: Kimchi Fried Rice</a></h3>
+        <h3><a href="#krcs">Korean Rice Cake Soup (Duk Guk)</a></h3>
+        </ul>
+    </div>
+
+  <div class="cuisine-page">
+
+    <div class="dish">
+        <a href="foodList.html?food=Bibimbap" id="bibi"><img src="images/bibimbap.jpg" alt="Bibimbap" style="width: 300px; height: auto;"></a>
+        <h3><a href="foodList.html?food=Bibimbap">Bibimbap</a></h3>
+        <p>A vibrant Korean rice dish topped with sautéed vegetables, marinated beef, a fried egg, and spicy gochujang sauce, all mixed together for a flavorful and colorful meal.</p>
+    </div>
+    
+    <div class="dish">
+        <a href="foodList.html?food=Korean%20Cold%20Noodle%20Soup%20(Mul%20Naengmyeon)" id="coldn"><img src="images/coldnoodle.jpg" alt="Korean Cold Nooble Soup" style="width: 300px; height: auto;"></a>
+        <h3><a href="foodList.html?food=Korean%20Cold%20Noodle%20Soup%20(Mul%20Naengmyeon)">Korean Cold Noodle Soup (Mul Naengmyeon)</a></h3>
+        <p>Mul Naengmyeon is a Korean cold noodle soup featuring chewy noodles in a tangy, chilled broth, garnished with fresh cucumber, sweet pear, pickled radish, and optional beef slices. It's a perfect, refreshing dish for hot weather.</p>
+    </div>
+    
+    <div class="dish">
+        <a href="foodList.html?food=Spicy%20Carrot%20Kimchi" id="spicyck"><img src="images/spicy-carrot.jpg" alt="Spicy Carrot Kimchi" style="width: 300px; height: auto;"></a>
+        <h3><a href="foodList.html?food=Spicy%20Carrot%20Kimchi">Spicy Carrot Kimchi</a></h3>
+        <p>Spicy Carrot Kimchi is a tangy Korean side dish made from carrots coated in a spicy, garlicky paste and fermented for a few days. It's a crunchy, flavorful addition to any meal.</p>
+    </div>
+    
+    <div class="dish">
+        <a href="foodList.html?food=Kimchi%20Bokumbap:%20Kimchi%20Fried%20Rice" id="kbkfr"><img src="images/kimchi-fried.jpg" alt="Kimchi Bokumbap: Kimchi Fried Rice" style="width: 300px; height: auto;"></a>
+        <h3><a href="foodList.html?food=Kimchi%20Bokumbap:%20Kimchi%20Fried%20Rice">Kimchi Bokumbap: Kimchi Fried Rice</a></h3>
+        <p>Kimchi Bokkeumbap is a flavorful Korean fried rice made with tangy kimchi, day-old rice, and a mix of vegetables and protein, often topped with a fried egg.</p>
+    </div>
+    
+    <div class="dish">
+        <a href="foodList.html?food=Korean%20Rice%20Cake%20Soup%20(Duk%20Guk)" id="krcs"><img src="images/cake-soup.jpg" alt="Korean Rice Cake Soup (Duk Guk)" style="width: 300px; height: auto;"></a>
+        <h3><a href="foodList.html?food=Korean%20Rice%20Cake%20Soup%20(Duk%20Guk)">Korean Rice Cake Soup (Duk Guk)</a></h3>
+        <p>Duk Guk is a traditional Korean rice cake soup made with thinly sliced rice cakes in a clear beef or anchovy broth, often garnished with beef, green onions, and egg. It's commonly enjoyed during the Lunar New Year for good luck and to symbolize aging by a year.</p>
+    </div>
+  </div>
+
+
+  <!--Link to java script-->
+  <script src="foodfunction.js"></script>
+  <script src="cuisinepagefunction.js"></script>
+
+  <!--Footer Section-->
+  <footer>
+      <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+  </footer>
+
+</body>
+</html>

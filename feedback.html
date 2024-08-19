@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ensures the website is responsive on different devices-->
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Welcome</title>
+</head>
+
+<body>
+    <section id="Top">
+        <div class="nav-bar">
+            <h1 class="logo">Palate Passport</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div class="small-size-logo">Palate Passport</div>
+        <div id="container">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('container').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('container').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <!-- Feedback Form Section -->
+    <section id="feedbacksection">
+        <div class="formbox">
+            <form id="feedbackForm">
+
+                <h1>Feedback Form</h1>
+
+                <div class="inputbox">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+    
+                <div class="inputbox">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" placeholder="Enter your feedback title" required>
+                </div>
+    
+                <div class="inputbox">
+                    <label for="feedback">Your Feedback:</label>
+                    <!--For longer texts-->
+                    <textarea id="feedback" name="feedback" placeholder="Enter your feedback" required></textarea>
+                </div>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!--Function for store feedback-->
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Get form values
+            var email = document.getElementById('email').value;
+            var title = document.getElementById('title').value;
+            var feedback = document.getElementById('feedback').value;
+            // Create an object to store in local storage
+            var feedbackData = {
+                email: email,
+                title: title,
+                feedback: feedback
+            };
+            // Store the data in local storage
+            localStorage.setItem('feedback', JSON.stringify(feedbackData));
+            // Display submitted message
+            alert('Feedback Submitted');
+            // Clear the form
+            document.getElementById('feedbackForm').reset();
+        });
+    </script>
+    
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+    </footer>
+</body>
+
+</html>

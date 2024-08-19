@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Time New Roman', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/* Hide Scrollbar */
+body {
+    overflow: overlay;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-135deg, #b65739, #1b765e);
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+/*Home section*/
+.top-section{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/homepage.jpg);
+}
+/*nav*/
+.nav-bar{
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+
+    animation: slidefromtop 0.5s ease-in 0.5s 1 normal both;
+}
+/* Animation of nav-bar */
+@keyframes slidefromtop {
+    from {
+      transform: translateY(-100px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+}
+.nav-bar h1 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 40px;
+    margin-right: auto;
+} 
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+.nav-bar ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover {
+    color: #ff5722;
+    text-shadow: 0 0 10px #b65739; /* Creates a glowing effect */
+}
+/*Intro*/
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.intro h4{
+    color: #ffffff;
+    font-size: 30px;
+
+    animation: slideIn 2s forwards;
+}
+.intro h1{
+    color: #ffffff;
+    font-size: 70px;
+    margin: 20px 0px 20px;
+
+    animation: slideIn 3s forwards;
+}
+.intro h3{
+    color: #ffffff;
+    font-size: 40px;
+
+    animation: slideIn 4s forwards;
+}
+/*Animation for intro*/
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/*Cuisine Section*/
+#Cuisine{
+    padding: 0; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5%;
+}
+#Cuisine h1{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    padding: 0 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.cuisines-section{
+    display: grid;
+    place-items: center;
+    margin-inline: 24px;
+    padding-block: 80px;
+}
+.cuisines-section h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #edffef;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.info-link{
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    /*Set the box sizing*/
+    flex: 1 1 calc(50% - 25px);
+    max-width: calc(50% - 25px);
+    box-sizing: border-box;
+}
+.info-item{
+    position: relative; /* Needed for absolute positioning of overlay */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    overflow: hidden; /* Ensures the overlay doesn’t overflow the item */
+}
+.info-item img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.info-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2); /* Black background with 40% opacity */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.info-text h3{
+    margin: 0;
+    font-size: 20px;
+}
+.info-item:hover img{
+    transform: scale(1.05);
+}
+.info-item h3{
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+.info-item:hover{
+    transform: scale(1.05);
+}
+.info-link:hover .info-item{
+    transform: scale(1.05);
+}
+/*About Seciton*/
+#about{
+    padding: 0 20px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+.about-title h1{
+    margin-bottom: 40px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+    color: #ffffff;
+}
+.about-title p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.about-content .content-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+.content-text p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 0px 250px 0px 250px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+/*Names*/
+.names{
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    gap: 20px; /* Spacing between icons */
+    justify-content: center;
+    align-items: center;
+}
+.names .fab {
+    font-size: 24px; /* Adjust the size */
+    color: #E4405F; /* Instagram color */
+}
+.names .icon-text{
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.icon-text:hover{
+    color: #ff5722;
+    text-shadow: 0 0 10px #b65739; /* Creates a glowing effect */
+}
+/*Footer section*/
+footer{
+    margin-top: 20%;
+    background: #b65739;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+}

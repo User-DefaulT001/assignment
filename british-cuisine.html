@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css"> <!-- Link to the existing CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/england.jpg" alt="British Cuisine Image">
+            <div id="overlay">British Cuisine</div>
+            <div id="small-overlay">British Cuisine</div>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side-panel">
+        <h3>Popular Dishes</h3>
+        <p>-------------------------------------</p>
+        <ul>
+        <h3><a href="#BnM">Bangers and Mash</a></h3>
+        <h3><a href="#BW">Beef Wellington</a></h3>
+        <h3><a href="#CESP">Classic English Shepherd's Pie</a></h3>
+        <h3><a href="#FnC">Fish and Chips</a></h3>
+        <h3><a href="#FEB">Full English Breakfast</a></h3>
+        </ul>
+    </div>
+
+    <!--DISHES CONTENT-->
+    <div class="cuisine-page">
+
+        <div class="dish">
+            <a href="foodList.html?food=Bangers%20and%20Mash" id="BnM"><img src="images/Bangers and Mash.png" alt="Bangers and Mash" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Bangers%20and%20Mash">Bangers and Mash</a></h3>
+            <p>Bangers and Mash: A traditional British dish of sausages served with creamy mashed potatoes, often topped with onion gravy and accompanied by peas.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Beef%20Wellington" id="BW"><img src="images/beef wellington.jpg" alt="Beef Wellington" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Beef%20Wellington">Beef Wellington</a></h3>
+            <p>A luxurious dish consisting of a fillet of beef coated with pâté and duxelles (a finely chopped mushroom mixture), wrapped in puff pastry, and baked until golden.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Classic%20English%20Shepherd's%20Pie" id="CESP"><img src="images/Classic English Shepherd's Pie.png" alt="Classic English Shepherd's Pie" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Classic%20English%20Shepherd's%20Pie">Classic English Shepherd's Pie</a></h3>
+            <p>A comforting dish made with minced lamb (or beef in the variant called cottage pie) cooked with onions, carrots, and peas, topped with mashed potatoes, and baked until golden.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Fish%20and%20Chips" id="FnC"><img src="images/fish and chips.jpg" alt="Fish and Chips" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Fish%20and%20Chips">Fish and Chips</a></h3>
+            <p>A classic British dish featuring battered and deep-fried fish (typically cod or haddock) served with thick-cut fries, often accompanied by mushy peas and tartar sauce.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Full%20English%20Breakfast" id="FEB"><img src="images/full english breakfast.jpg" alt="Full English Breakfast" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?=Full%20English%20Breakfast">Full English Breakfast</a></h3>
+            <p>A hearty breakfast consisting of bacon, sausages, eggs, baked beans, grilled tomatoes, mushrooms, and toast, often served with black pudding and hash browns.</p>
+        </div>
+    </div>
+
+    <!--Link to java script-->
+    <script src="foodfunction.js"></script>
+    <script src="cuisinepagefunction.js"></script>
+
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+    </footer>
+</body>
+
+</html>

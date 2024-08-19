@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Time New Roman', sans-serif;
+}
+/* Hide Scrollbar */
+body {
+    overflow: overlay;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-135deg, #b65739, #1b765e);
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+/*Nav-bar*/
+#Top{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    animation: slidefromtop 0.3s ease-in 0.3s 1 normal both;
+}
+/* Animation of nav-bar */
+@keyframes slidefromtop {
+    from {
+      transform: translateY(-100px);
+    }
+  
+    to {
+      transform: translateX(0);
+    }
+}
+.nav-bar h1 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 40px;
+    margin-right: auto;
+} 
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+.nav-bar ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover {
+    color: #ff5722;
+    text-shadow: 0 0 10px #b65739; /* Creates a glowing effect */
+}
+/*Footer section*/
+footer{
+    margin-top: 5%;
+    background: #b65739;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Food container styling */
+#foodContainer {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #000000;
+}
+
+/* Image styling */
+#foodContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 3px solid #000; /* black border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* shadow */
+}
+
+/* Headings styling */
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Increase font size for prominence */
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 1.5em; /* Slightly larger for better readability */
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+/*Instructions section styling*/
+.instructions{
+    color: #000000;
+    padding: 15px;
+    margin-top: 8px;
+}
+/* Techniques section styling */
+.techniques {
+    color: #000000;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+/* Facts section styling */
+.facts {
+    color: #000000;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+/*Hide menu at full size*/
+.small-bar{
+    display: none;
+}
+/*Phone size*/
+@media screen and (max-width: 510px) {
+    .nav-bar {
+        display: none;
+    }
+    .nav-bar ul li {
+        display: none;
+    }
+    .small-bar {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Ensure full width */
+        
+        position: relative; /* Positioning context for children */
+        margin-bottom: 0; /* Remove margin to avoid shifting */
+    }
+    .small-size-logo {
+        font-size: 30px !important;
+        color: #ffffff;
+        padding-top: 20px; /* Adjust padding */
+        margin-bottom: 20px; /* Space between logo and menu icon */
+    }
+    .menu-icon {
+        font-size: 40px;
+        cursor: pointer;
+        color: #ffff;
+        position: fixed;
+        top: 20px; /* Position from the top */
+        left: 20px; /* Position from the left */
+    }
+    #close {
+        margin: 20px;
+        font-size: 20px;
+        color: #ffff;
+        cursor: pointer;
+    }
+    #menu li a {
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffff;
+        margin: 5px 0;
+        transition: color 0.3s ease; /* Smooth color transition */
+    }
+    #menu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        list-style: none;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+        z-index: 10000; /* Ensure it's above the background */
+    }
+    #container {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-135deg, #b65739, #1b765e);
+        text-align: center;
+        transition: left 0.6s ease; /* Transition only the left position */
+        z-index: 9999; /* Ensure it covers all content */
+    }
+    #foodContainer {
+        max-width: 320px !important;
+        margin: 20px auto;
+        color: #000000;
+        margin-bottom: 40%;
+    }
+    footer {
+        font-size: 10px !important;
+    }
+}

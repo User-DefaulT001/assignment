@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ensures the website is responsive on different devices-->
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="homepagesize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Welcome</title>
+</head>
+
+<body>
+    <!--Home Section-->
+    <section id="Home">
+        <div class="top-section">
+            <!--Menu for phone size-->
+            <div class="small-bar">
+                <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+                <div class="small-size-logo">Palate Passport</div>
+                <div id="container">
+                    <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+                    <ul id="menu">
+                        <li><a href="#Home" onclick="closeMenu()">Home</a></li>
+                        <li><a href="#Cuisine" onclick="closeMenu()">Cuisines</a></li>
+                        <li><a href="feedback.html" onclick="closeMenu()">Feedback</a></li>
+                        <li><a href="#About" onclick="closeMenu()">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Open and close function for small-bar-->
+            <script>
+                function openMenu(){
+                    document.getElementById('container').style.left='0%';
+                    document.getElementById('menu').style.opacity='1';
+                }
+                function closeMenu(){
+                    document.getElementById('container').style.left='-100%';
+                    document.getElementById('menu').style.opacity='0';
+                }
+            </script>
+            <!--Full size-->
+            <div class="nav-bar">
+                <h1 class="logo">Palate Passport</h1>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Cuisine">Cuisines</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Intro-->
+        <div class="intro">
+            <h4>Explore the food</h4>
+            <h1>Discover the vibrant tastes of global cuisines</h1>
+            <h3>Elevate Your Cooking Game</h3>
+        </div>
+    </section>
+
+    <!--Cuisine Section-->
+    <section id="Cuisine">
+        <h1>CUISINE</h1>
+        <div class="cuisines-section">
+            <div class="box">
+                <a href="malaysian-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/malaysia.jpg" alt="image">
+                        <div class="info-text">
+                            <h3>Malaysian Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="thai-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/thai.png" alt="image">
+                        <div class="info-text">
+                            <h3>Thai Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="korean-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/korean.jpg" alt="image">
+                        <div class="info-text">
+                            <h3>Korean Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="japanese.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/japan.jpg" alt="image">
+                        <div class="info-text">
+                            <h3>Japanese Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="british-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/england.jpg" alt="image">
+                        <div class="info-text">
+                            <h3>British Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="mexico-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/mexico.jpeg" alt="image">
+                        <div class="info-text">
+                            <h3>Mexican Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="french-cuisine.html" class="info-link">
+                    <div class="info-item">
+                        <img src="images/france.jpg" alt="image">
+                        <div class="info-text">
+                            <h3>French Cuisine</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="About">
+        <div class="about-title">
+            <h1>Welcome to Palate Passport!</h1>
+            <p>Explore different kind of cuisines from all around the world</p>
+        </div>
+        <div class="about-content">
+            <div class="content-text">
+                <p>
+                    Hi, we are the Faculty of Information and Communication Technology students from UTAR.<br><br>
+                    We invite you to an adventure to explore the golbal cuisine together. Whether you’re craving the spicy and aromatic flavors of Malaysian 
+                    street food, the bold and savory dishes of Korea, or the comforting classics of British fare, we’ve got you covered. We also explore the rich and diverse flavors of Mexico, 
+                    the elegant simplicity of French cooking, the artful techniques of Japanese cuisine, and the aromatic delights of Thailand. <br><br>
+                    Our mission is to share the unique tastes, traditions, and stories behind each dish, bringing the world’s kitchens into your home. Whether you're a seasoned chef or just beginning 
+                    your culinary journey, Palate Passport is here to inspire and guide you as you explore new flavors and cultures.<br>
+                    Join us, and let's travel the world through food!
+                </p>
+            </div>
+        </div>
+        <div class="names">
+            <div class="insta-icon"><i class="fab fa-instagram"></i></div>
+            <a href="https://www.instagram.com/lol1tea?igsh=MXBsZm80bnVxMXZocw==" class="icon-text">Lin Tean</a>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div class="insta-icon"><i class="fab fa-instagram"></i></div>
+            <a href="https://www.instagram.com/zhixuanpoi?igsh=a2Q5ZmE2ZXV1YWRk" class="icon-text">Zhi Xuan</a>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div class="insta-icon"><i class="fab fa-instagram"></i></div>
+            <a href="https://www.instagram.com/imhhangg?igsh=b212d2JkNm5wM2du&utm_source=qr" class="icon-text">Kai Hang</a>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div class="insta-icon"><i class="fab fa-instagram"></i></div>
+            <a href="https://www.instagram.com/ngyongz/" class="icon-text">Yong Zhe</a>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+    </footer>
+</body>
+
+</html>

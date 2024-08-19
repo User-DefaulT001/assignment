@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/france.jpg" alt="France Cuisine Image">
+            <div id="overlay">French Cuisine</div>
+            <div id="small-overlay">French Cuisine</div>
+        </div>
+    </div>
+
+  <!-- SIDE PANEL -->
+    <div class="side-panel">
+      <h3>Popular Dishes</h3>
+      <p>-------------------------------------</p>
+      <ul>
+      <h3><a href="#croissant">Croissant</a></h3>
+      <h3><a href="#crepes">Crepes</a></h3>
+      <h3><a href="#souffle">Souffle</a></h3>
+      <h3><a href="#tartetatin">Tarte Tatin</a></h3>
+      <h3><a href="#coqauvin">Coq au Vin</a></h3>
+      </ul>
+    </div>
+
+  <!-- DISHES CONTENT -->
+ <div id="cuisine-page">
+    <div class="dish">
+        <a href="foodList.html?food=Croissant"><img src="images/Croissant.png"  id = "croissant" alt="Crossiant" ></a>
+        <h3><a href="foodList.html?food=Croissant">Croissant</a></h3>
+        <p>Classic Franch pastry, toppings can be as varied as much as normal bread. </p>
+    </div>
+    
+    <div class="dish">
+        <a href = "foodList.html?food=Crepes"><img src="images/crepes.jpg"  id = "crepes" alt="crepes"></a>
+        <h3><a href="foodList.html?food=Crepes">Crepes</a></h3>
+        <p>Most common dish in France that can be used with many topping and platting styles.</p>
+    </div>
+    
+    <div class="dish">
+        <a href = "foodList.html?food=Souffle"><img src="images/souffle.jpg"  id = "souffle" alt="souffle"></a>
+        <h3><a href="foodList.html?food=Souffle">Souffle</a></h3>
+        <p>Irressistible dessert and light as air.</p>
+    </div>
+    
+    <div class="dish">
+        <a href="foodList.html?food=Tarte%20Tatin"><img src= "images/tartetatin.jpg"  id = "tartetatin" alt="tarte tatin"></a>
+        <h3><a href="foodList.html?food=Tarte%20Tatin">Tarte Tatin</a></h3>
+        <p>Dark and sticky caramel, sweet apples and crisp pastry combine to make this heavenly French dessert.</p>
+    </div>
+    
+    <div class="dish">
+        <a href= "foodList.html?food=Coq%20au%20Vin"><img src="images/coqauvin.jpg"  id = "coqauvin" alt="coq au vin"></a>
+        <h3><a href="foodList.html?food=Coq%20au%20Vin">Coq au Vin</a></h3>
+        <p>Extreme tender chicken meat that falls off the bone easily with rich savoury taste.</p>
+    </div>    
+  </div>
+
+ <!--Link to java script-->
+ <script src="foodfunction.js"></script>
+ <script src="cuisinepagefunction.js"></script>
+
+ <!--Footer Section-->
+ <footer>
+     <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+ </footer>
+</body>
+
+</html>

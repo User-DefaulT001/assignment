@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Time New Roman', sans-serif;
+}
+/* Hide Scrollbar */
+body {
+    overflow: overlay;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-135deg, #b65739, #1b765e);
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*Nav-bar*/
+#Top{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar h1 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 40px;
+    margin-right: auto;
+} 
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+.nav-bar ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover {
+    color: #ff5722;
+    text-shadow: 0 0 10px #b65739; /* Creates a glowing effect */
+}
+
+/*Feedback section*/
+#feedbacksection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.formbox{
+    position: relative;
+    width: 600px;
+    height: 550px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feedbackForm{
+    justify-content: center;
+}
+#feedbackForm h1{
+    font-size: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 510px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.inputbox form{
+    display: flex;
+    flex-direction: column;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+.inputbox textarea{
+    width: 100%;
+    height: 100px;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+button{
+    background-color: #b65739;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+}
+button:hover {
+    background-color: #e6a896;
+}
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+/*Footer section*/
+footer{
+    background: #b65739;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Hide menu at full size*/
+.small-bar{
+    display: none;
+}
+/*Phone size*/
+@media screen and (max-width: 510px) {
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar ul li{
+        display: none;
+    }
+    .small-bar{
+        display: flex;
+    }
+    .small-bar h1{
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+    }
+    .small-size-logo {
+        font-size: 30px !important;
+        color: #ffffff;
+        padding-top: 80px;
+        padding-left: 25%;
+    }
+    .menu-icon{
+        float: left;
+        margin: 20px;
+        font-size: 40px;
+        cursor: pointer;
+        color: #ffff;
+        position: fixed;
+    }
+    #close{
+        margin: 20px;
+        float: left;
+        color: #ffff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #menu li a{
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #ffff;
+        margin: 5px 0px;
+        transition: all 0.3s ease;
+    }
+    #menu{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        list-style: none;
+        text-align: center;
+        opacity: 0;
+        transition: all 1s ease;
+        z-index: 10000; /* Make sure the menu stays above the background */
+    }
+    #container{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-135deg, #b65739, #1b765e);
+        text-align: center;
+        transition: all 0.6s ease;
+        z-index: 9999; /* Ensure it covers all content */
+    }
+    .formbox{
+        width: 300px !important;
+        right: 3%;
+    }
+    #feedbackForm h1{
+        font-size: 30px !important;
+    }
+    .inputbox{
+        width: 260px !important;
+    }
+    footer{
+        font-size: 10px !important;
+    }
+}

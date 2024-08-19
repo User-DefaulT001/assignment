@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Cuisine</title>
+    <link rel="stylesheet" href="cuisinepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="logo">Palate Passport</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                <a href="#">Cuisines<i class="fas fa-chevron-down"></i></a> 
+                    <ul class="dropdown">
+                        <div class=" cuisineMenu">
+                            <li><a href="malaysian-cuisine.html">Malaysian</a></li>
+                            <li><a href="thai-cuisine.html">Thai</a></li>
+                            <li><a href="korean-cuisine.html">Korean</a></li>
+                            <li><a href="japanese.html">Japanese</a></li>
+                            <li><a href="british-cuisine.html">British</a></li>
+                            <li><a href="mexico-cuisine.html">Mexican</a></li>
+                            <li><a href="french-cuisine.html">French</a></li>
+                        </div>
+                    </ul>
+                </li>              
+                <li><a href="index.html#About">About</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Menu for phone size-->
+    <div class="small-bar">
+        <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
+        <div id="menucontainer">
+            <div id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+            <ul id="menu">
+                <li><a href="index.html#Home" onclick="closeMenu()">Home</a></li>
+                <li><a href="index.html#Cuisine" onclick="closeMenu()">Cuisine</a></li>
+                <li><a href="index.html#About" onclick="closeMenu()">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Open and close function-->
+    <script>
+        function openMenu(){
+            document.getElementById('menucontainer').style.left='0%';
+            document.getElementById('menu').style.opacity='1';
+        }
+        function closeMenu(){
+            document.getElementById('menucontainer').style.left='-100%';
+            document.getElementById('menu').style.opacity='0';
+        }
+    </script>
+
+    <div id="container">
+        <div id="image">
+            <img src="images/thai.png" alt="Thai Cuisine Image">
+            <div id="overlay">Thai Cuisine</div>
+            <div id="small-overlay">Thai Cuisine</div>
+        </div>
+    </div>
+
+    <!-- SIDE PANEL -->
+    <div class="side-panel">
+        <h3>Popular Dishes</h3>
+        <p>-------------------------------------</p>
+        <ul>
+        <h3><a href="#rvtcs">Raw Vegan Thai Coconut Soup (Tom Kha)</a></h3>
+        <h3><a href="#ctfc">Classic Thai Fish Cakes</a></h3>
+        <h3><a href="#pctfr">Pineapple Chicken Thai Fried Rice</a></h3>
+        <h3><a href="#ttctp">Tropical Thai Coconut-Tapioca Pudding</a></h3>
+        <h3><a href="#eavms">Easy and Versatile Mango Sauce</a></h3>
+        </ul>
+    </div>
+
+    <div class="cuisine-page">
+        <div class="dish">
+            <a href="foodList.html?food=Raw%20Vegan%20Thai%20Coconut%20Soup%20(Tom%20Kha)" id="rvtcs"><img src="images/tom-kha.jpg" alt="Raw Vegan Thai Coconut Soup (Tom Kha)" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Raw%20Vegan%20Thai%20Coconut%20Soup%20(Tom%20Kha)">Raw Vegan Thai Coconut Soup (Tom Kha)</a></h3>
+            <p>Raw Vegan Thai Coconut Soup (Tom Kha) is a refreshing, chilled soup made with raw coconut milk, aromatic ingredients like lemongrass and kaffir lime leaves, and fresh vegetables.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Classic%20Thai%20Fish%20Cakes" id="ctfc"><img src="images/thai-fish.jpg" alt="Classic Thai Fish Cakes" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Classic%20Thai%20Fish%20Cakes">Classic Thai Fish Cakes</a></h3>
+            <p>Classic Thai Fish Cakes are savory patties made from a blend of fish paste, red curry paste, and fresh herbs.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Pineapple%20Chicken%20Thai%20Fried%20Rice" id="pctfr"><img src="images/thai-rice.jpg" alt="Pineapple Chicken Thai Fried Rice" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Pineapple%20Chicken%20Thai%20Fried%20Rice">Pineapple Chicken Thai Fried Rice</a></h3>
+            <p>Pineapple Chicken Thai Fried Rice is a delightful Thai-inspired dish featuring tender chicken, sweet pineapple chunks, and a mix of vegetables.</p>
+        </div>
+        
+        <div class="dish">
+            <a href="foodList.html?food=Tropical%20Thai%20Coconut-Tapioca%20Pudding" id="ttctp"><img src="images/thai-pudding.jpg" alt="Tropical Thai Coconut-Tapioca Pudding" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Tropical%20Thai%20Coconut-Tapioca%20Pudding">Tropical Thai Coconut-Tapioca Pudding</a></h3>
+            <p>Tropical Thai Coconut-Tapioca Pudding is a creamy and satisfying dessert made with chewy tapioca pearls simmered in rich coconut milk.</p>
+        </div>
+    
+        <div class="dish">
+            <a href="foodList.html?food=Easy%20and%20Versatile%20Mango%20Sauce" id="eavms"><img src="images/thai-sauce.jpg" alt="Easy and Versatile Mango Sauce" style="width: 300px; height: auto;"></a>
+            <h3><a href="foodList.html?food=Easy%20and%20Versatile%20Mango%20Sauce">Easy and Versatile Mango Sauce</a></h3>
+            <p>Easy and Versatile Mango Sauce is a flavorful and tangy condiment made with ripe mangoes, garlic, and coconut milk.</p>
+        </div>
+    </div>
+
+  <!--Link to java script-->
+  <script src="foodfunction.js"></script>
+  <script src="cuisinepagefunction.js"></script>
+
+  <!--Footer Section-->
+  <footer>
+      <p>Copyright © 2024 Palate Passport. All Right Reserved.</p>
+  </footer>
+</body>
+</html>

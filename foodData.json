@@ -1,0 +1,1580 @@
+[
+    {
+        "name": "Nasi Lemak",
+        "image": "images/nasi-lemak.jpg",
+        "description": "Nasi Lemak is a fragrant rice dish cooked in coconut milk, traditionally served with sambal, anchovies, peanuts, boiled egg, and cucumber. It is a staple in Malaysian cuisine and considered the national dish of Malaysia.",
+        "recipe": {
+            "ingredients": [
+                "2 cups of rice",
+                "1 cup of coconut milk",
+                "1 cup of water",
+                "2 pandan leaves, knotted",
+                "Salt to taste",
+                "Sambal, anchovies, peanuts, boiled egg, and cucumber for serving"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Rinse 1 cup of rice under cold water until the water runs clear.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a pot, combine the rinsed rice with 1 cup of coconut milk, 1 cup of water, 2-3 pandan leaves (tied in a knot), and 1/2 teaspoon of salt.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Bring the mixture to a boil over medium heat.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Reduce the heat to low, cover the pot, and simmer for 15-20 minutes, or until the rice is cooked and the liquid is absorbed.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Remove the pot from heat and let it sit, covered, for 10 minutes before fluffing the rice with a fork.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Serve the rice with sambal, fried anchovies, roasted peanuts, a boiled egg, and sliced cucumber."
+        },
+        "techniques": "One key technique is ensuring the rice is cooked properly with the right amount of coconut milk to achieve the perfect texture. The sambal is another critical component, which should be slow-cooked to achieve deep flavors.",
+        "facts": "Did you know? Nasi Lemak was originally a farmer's meal due to its high-calorie content, providing energy for the day."
+    },
+    {
+        "name": "Rendang",
+        "image": "images/rendang.jpg",
+        "description": "Rendang is a rich and tender coconut beef stew that is explosively flavorful. It is slow-cooked with a mixture of spices and coconut milk, which results in a deep, complex flavor.",
+        "recipe": {
+            "ingredients": [
+                "beef, cut into cubes",
+                "coconut milk",
+                "lemongrass, smashed",
+                "kaffir lime leaves",
+                "Spice paste (shallots, garlic, ginger, galangal, chilies)",
+                "Salt and sugar to taste"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Blend the spice paste ingredients until smooth.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Heat a pan over medium heat and sauté the spice paste until fragrant, about 2-3 minutes.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add the beef, 1 cup of coconut milk, 2 stalks of lemongrass (smashed), and 4-5 lime leaves (torn).", 
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Stir well to combine and bring to a simmer.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Reduce the heat to low and cook for 2-3 hours, stirring occasionally, until the beef is tender and the sauce has thickened.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Serve hot and enjoy your flavorful dish!"                 
+        },
+        "techniques": "Cooking rendang requires patience, as the key to its rich flavor is slow cooking. Continuously stir the dish to prevent burning and allow the beef to absorb the flavors fully.",
+        "facts": "Did you know? Rendang was once named the most delicious food in the world by CNN's readers' poll."
+    },
+    {
+        "name": "Satay",
+        "image": "images/satay.jpg",
+        "description": "Satay is a popular Southeast Asian dish consisting of skewered and grilled meat, served with a rich peanut sauce, rice cakes, and raw vegetables.",
+        "recipe": {
+            "ingredients": [
+                "chicken or beef, cut into bite-sized pieces",
+                "Bamboo skewers",
+                "soy sauce",
+                "oil",
+                "Spice paste (shallots, garlic, turmeric powder, lemongrass, coriander powder)",
+                "Peanut sauce for serving"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Marinate the meat in a mixture of spice paste, soy sauce, and oil for at least 1 hour.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Thread the marinated meat onto skewers.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Grill the skewers over charcoal until the meat is fully cooked and has a nice char.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Serve the grilled meat with peanut sauce on the side."                            
+        },
+        "techniques": "To achieve authentic flavor, grill the satay over charcoal. Turning the skewers frequently will help cook the meat evenly and prevent burning.",
+        "facts": "Did you know? Satay is thought to have originated in Java, Indonesia, and has spread to many other parts of Southeast Asia."
+    },
+    {
+        "name": "Char Kway Teow",
+        "image": "images/char-kway-teow.jpg",
+        "description": "Char Kway Teow is a popular stir-fried flat noodle dish from Malaysia, typically made with prawns, eggs, beansprouts, and chives, all tossed in a savory soy sauce mixture.",
+        "recipe": {
+            "ingredients": [
+                "flat rice noodles",
+                "prawns, peeled",
+                "eggs",
+                "beansprouts",
+                "dried red chilies,fresh red chilies",
+                "chives",
+                "soy sauce",
+                "oyster sauce",
+                "Garlic, minced"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Heat a wok with oil over medium-high heat.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Sauté minced garlic until fragrant, about 1 minute.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add prawns to the wok and cook until they turn pink, about 3-4 minutes.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Push the prawns to one side of the wok and crack the eggs into the empty space. Scramble the eggs quickly until cooked.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Add the cooked noodles, sauces, beansprouts, and chives to the wok.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Stir-fry everything together until well combined and the noodles are slightly charred.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Serve hot and enjoy your stir-fried noodles!"                            
+        },
+        "techniques": "The key to a good Char Kway Teow is using high heat to achieve the characteristic \"wok hei\" or breath of the wok, which imparts a smoky flavor to the dish.",
+        "facts": "Did you know? Char Kway Teow was originally a poor man’s dish, often sold by fishermen and laborers who added seafood to boost its nutritional value."
+    },
+    {
+        "name": "Roti Canai",
+        "image": "images/roti-canai.jpg",
+        "description": "Roti Canai is a flaky flatbread that is commonly served with dhal (lentil curry) or other types of curries. It is a staple breakfast item in Malaysia.",
+        "recipe": {
+            "ingredients": [
+                "all-purpose flour",
+                "salt, sugar",
+                "egg",
+                "whole milk",
+                "ghee (clarified butter)",
+                "Oil for cooking"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "In a bowl, mix the flour and salt.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Add water, condensed milk, and ghee to the flour mixture. Knead until a soft dough forms.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Cover the dough and let it rest for 4 hours.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "After resting, roll out the dough thinly on a floured surface.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Fold the rolled dough into layers.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Heat a griddle over medium heat and brush with a little oil.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Cook the layered dough on the griddle until golden brown and crispy on both sides.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Serve hot and enjoy your crispy, layered treat!"                    
+        },
+        "techniques": "The key to making good Roti Canai is in the dough stretching and folding technique, which creates the signature flaky layers.",
+        "facts": "Did you know? \"Roti Canai\" originally from South India, this delectable dish has seamlessly woven its way into the hearts and plates of Malaysians and become an integral part of their culinary heritage."
+    },
+    {
+        "name": "Sushi",
+        "image": "images/sushi.jpg",
+        "description": "Sushi is a traditional Japanese dish made with vinegared rice, often accompanied by seafood, vegetables, and occasionally tropical fruits.",
+        "recipe": {
+            "ingredients": [
+                "sushi rice",
+                "water",
+                "rice vinegar",
+                "sugar",
+                "salt",
+                "Assorted seafood, vegetables, and nori (seaweed)"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Rinse the rice under cold water until the water runs clear.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Cook the rinsed rice with the appropriate amount of water according to the package instructions.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "In a separate bowl, mix rice vinegar, sugar, and salt until dissolved.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Fold the vinegar mixture into the cooked rice while it is still warm.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Prepare your sushi fillings (such as fish, vegetables, or tofu).",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Place a sheet of nori on a bamboo sushi mat, spread a layer of seasoned rice on top, and add your chosen fillings.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Roll the sushi tightly using the bamboo mat, then slice into pieces.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Serve the sushi rolls with soy sauce, pickled ginger, and wasabi. Enjoy your homemade sushi!"       
+        },
+        "techniques": "Properly seasoning the rice and handling the ingredients with care are key to making good sushi. Keep your hands slightly wet to prevent rice from sticking while forming the sushi.",
+        "facts": "Did you know? Narezushi, the original Japanese sushi, consisted of fermented rice and aged fish. The long fermentation time gave it a distinct flavor and prevented the growth of bacteria and microorganisms.After the fermentation period has passed, the fish is eaten… and the rice is thrown away. Latter variants, including vinegared rice, were introduced and the Japanese soon started eating the rice along with the fish."
+    },
+    {
+        "name": "Ramen",
+        "image": "images/ramen.jpg",
+        "description": "Ramen is a Japanese noodle soup dish consisting of wheat noodles, a meat or fish-based broth, and toppings such as sliced pork, nori, and scallions.",
+        "recipe": {
+            "ingredients": [
+                "ramen noodles",
+                "chicken or pork broth",
+                "soy sauce",
+                "miso paste",
+                "boiled eggs",
+                "Sliced pork belly",
+                "Nori, chopped scallions, and other toppings"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Cook the noodles according to the package instructions. Drain and set aside.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a pot, heat the broth over medium heat.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add soy sauce and miso paste to the heated broth. Stir until the miso paste is fully dissolved.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Place the cooked noodles into serving bowls.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Pour the hot broth over the noodles in each bowl.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Top with sliced pork, boiled eggs, nori, and scallions.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Serve hot and enjoy your flavorful ramen!"                            
+        },
+        "techniques": "The secret to great ramen lies in the broth. Slow-cooking the broth to extract deep flavors is crucial, and the addition of miso or soy sauce can elevate the umami profile.",
+        "facts": "Did you know? Ramen was originally imported from China, but has since become a quintessential Japanese dish, with regional variations across Japan."
+    },
+    {
+        "name": "Tempura",
+        "image": "images/tempura.jpg",
+        "description": "Tempura is a Japanese dish where seafood, meat, and vegetables are lightly battered and deep-fried, resulting in a crisp, light coating.",
+        "recipe": {
+            "ingredients": [
+                "all-purpose flour",
+                "egg, beaten",
+                "ice-cold water",
+                "Seafood and vegetables (shrimp, sweet potatoes, zucchini, etc.)",
+                "Oil for deep-frying"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "In a bowl, mix together the flour, 1 egg, and ice-cold water to make a smooth batter.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Heat oil in a deep pan or fryer to the appropriate temperature for frying.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Dip the seafood and vegetables into the batter, ensuring they are fully coated.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Carefully fry the battered seafood and vegetables in the hot oil until they are crispy and golden brown.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Remove from the oil and drain on paper towels before serving."                            
+        },
+        "techniques": "Ensure the batter is cold and the oil is hot to achieve a light, crisp tempura. Avoid over-mixing the batter to keep it airy.",
+        "facts": "Did you know? Tempura was introduced to Japan by Portuguese missionaries in the 16th century."
+    },
+    {
+        "name": "Teriyaki",
+        "image": "images/teriyaki.jpg",
+        "description": "Teriyaki is a Japanese cooking technique where foods are grilled or broiled with a glaze of soy sauce, mirin, and sugar.",
+        "recipe": {
+            "ingredients": [
+                "chicken thighs or beef",
+                "soy sauce",
+                "mirin",
+                "sugar",
+                "sake",
+                "vegetable oil"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "In a bowl, mix together soy sauce, mirin, sugar, and sake to create the teriyaki sauce.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Preheat the grill or pan over medium-high heat.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Grill or pan-fry the meat, brushing it with the teriyaki sauce as it cooks.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Continue brushing the meat with sauce until it is cooked through and has a glossy glaze.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Serve the meat hot, garnished with additional sauce if desired."                       
+        },
+        "techniques": "Brush the sauce onto the meat while grilling to create layers of flavor and a beautiful, glossy finish. Avoid overcooking to keep the meat tender.",
+        "facts": "Did you know? The word \"teriyaki\" refers to the shine (\"teri\") and the method of cooking (\"yaki\") over direct heat."
+    },
+    {
+        "name": "Miso Soup",
+        "image": "images/miso-soup.jpg",
+        "description": "Miso soup is a traditional Japanese soup made from miso paste, dashi stock, tofu, and seaweed.",
+        "recipe": {
+            "ingredients": [
+                "dashi (Japanese soup stock)",
+                "miso paste",
+                "tofu, cubed",
+                "dried wakame seaweed",
+                "green onions, sliced"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Heat the dashi stock in a pot over medium heat.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a small bowl, dissolve the miso paste in a small amount of the warm dashi stock.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Stir the dissolved miso paste back into the pot with the rest of the dashi stock.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Add cubed tofu and dried wakame to the pot. Simmer briefly until the tofu is heated through and the wakame is rehydrated.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Serve the miso soup hot, garnished with chopped green onions on top."                            
+        },
+        "techniques": "Never boil the miso paste as it can destroy its flavor and nutritional benefits. Stir it in at the end and gently heat through.",
+        "facts": "Did you know? Miso soup is consumed daily by many Japanese people and is believed to have various health benefits, including aiding digestion and boosting the immune system."
+    },
+    {
+        "name":"Bangers and Mash",
+        "image": "images/Bangers and Mash.png",
+        "description": "Bangers and Mash: A traditional British dish of sausages served with creamy mashed potatoes, often topped with onion gravy and accompanied by peas.",
+        "recipe": {
+            "ingredients":[
+                "1/2 tbsp oil",
+                "8 sausages of choice",
+                "1 large onion , halved and finely sliced",
+                "2 garlic cloves , minced",
+                "3 tbsp flour (plain)",
+                "2 cups beef stock/broth , low sodium, store bought or homemade",
+                "1/4 tsp salt",
+                "1/2 tsp black pepper"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1":"Heat 2 tablespoons of oil in a skillet over medium-high heat.",
+            
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Add the sausages and cook, turning occasionally, until browned and cooked through (about 8 minutes, depending on size).",
+            
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Remove the sausages from the pan and set aside.",
+            
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Lower the heat to medium. Make sure there is about 2 tablespoons of oil left in the skillet.",
+            
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Add sliced onions and minced garlic to the pan. Sauté for about 4 minutes, until golden brown.",
+            
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Stir in 1 tablespoon of flour. Cook the mixture for 2 minutes while stirring.",
+            
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Gradually add 1 1/2 cups of beef stock, whisking constantly to avoid lumps.",
+            
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Simmer the gravy for 2-3 minutes until it thickens. Season with salt and pepper to taste.",
+            
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Serve the cooked sausages with mashed potatoes and peas. Pour the gravy over the top and enjoy!"
+        },
+        "techniques": "The key technique for making Bangers and Mash is to cook the sausages evenly over medium heat until they're browned and fully cooked, ensuring they don't burst. At the same time, boil the potatoes until tender, then mash them with butter and milk to achieve a smooth, creamy texture. Optional onion gravy adds extra flavor by sautéing onions and simmering them with stock.",
+        "facts":"The term \"bangers\" for sausages came about during World War I due to the high water content in sausages at the time, which made them explode or \"bang\" when cooked."
+    },
+    {
+        "name":"Beef Wellington",
+        "image": "images/beef wellington.jpg",
+        "description": "A luxurious dish consisting of a fillet of beef coated with pâté and duxelles (a finely chopped mushroom mixture), wrapped in puff pastry, and baked until golden.",
+        "recipe": {
+            "ingredients":[
+                "2 x 400g beef fillets",
+                "Olive oil, for frying",
+                "500g mixture of wild mushrooms, cleaned",
+                "1 thyme sprig, leaves only",
+                "500g puff pastry",
+                "8 slices of Parma ham",
+                "2 egg yolks, beaten with 1 tbsp water and a pinch of salt",
+                "Sea salt and freshly ground black pepper",
+                "2 tbsp olive oil",
+                "200g beef trimmings",
+                "4 large shallots, peeled and sliced",
+                "12 black peppercorns",
+                "1 bay leaf",
+                "1 thyme sprig",
+                "Splash of red wine vinegar",
+                "1 x 750ml bottle red wine",
+                "750ml beef stock"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Wrap beef tightly in cling film and chill overnight.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Sear beef fillets for 30-60 seconds on each side until browned, then allow them to cool.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Fry chopped mushrooms with thyme until the moisture evaporates to make a duxelle, then cool.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Roll pastry into rectangles and chill in the refrigerator.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Lay Parma ham slices on cling film, spread the duxelle over the ham, and wrap the beef fillets in the ham. Chill for 30 minutes.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Wrap the beef fillets in pastry, brush with egg wash, and chill for another 30 minutes.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Make a red wine sauce by browning beef trimmings with shallots, vinegar, wine, and stock. Simmer and strain the sauce.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Bake the beef Wellington at 200°C for 15-20 minutes, then let it rest for a few minutes.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Reheat the red wine sauce and serve sliced beef Wellington with the sauce."
+        },
+        "techniques": "The one technique of Beef Wellington recipe is making the mushroom duxelle. Finely chop mushrooms, then sauté them over high heat until all moisture evaporates, creating a concentrated mushroom paste. This ensures the pastry stays crisp while the beef inside remains moist and flavorful.",
+        "facts":"Beef Wellington first appeared on page 264 of The Gourmet Cookbook, Volume II in 1957.  In the 1960's, beef Wellington became the \"talk of the dinner party circuit\", when Jack and Jackie Kennedy served classic \"Filet de Boeuf en Croute\" prepared by White House (French) Chef Rene Verdon."
+    },
+    {
+        "name":"Classic English Shepherd's Pie",
+        "image": "images/Classic English Shepherd's Pie.png",
+        "description": "A comforting dish made with minced lamb (or beef in the variant called cottage pie) cooked with onions, carrots, and peas, topped with mashed potatoes, and baked until golden.",
+        "recipe": {
+            "ingredients":[
+                "4 tbsp worcester sauce",
+                "1 and a half cup frozen peas",
+                "2 large stocks of celery",
+                "2 medium carrots",
+                "4 tbsp tomato pure",
+                "1 can organic chopped tomatoes",
+                "1/2 cup water",
+                "1 tsp black pepper",
+                "2 tsp salt",
+                "1 organic vegetable cube",
+                "4 tsp dried parsley",
+                "1 kg minced beef",
+                "1/2 cup full fat milk",
+                "1 block of parmesan",
+                "4 clove garlic",
+                "100 g butter",
+                "2 onions",
+                "6 large potatoes"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Peel and cut potatoes into 4-6 pieces, then boil them.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "While the potatoes cook, sauté the meat, onions, and garlic until lightly browned.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add celery and carrots to the pan and continue cooking.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Incorporate the spices, Worcestershire sauce, canned tomatoes, and tomato paste.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Rinse the tomato can with water and add it to the mixture.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Cook for 5-6 minutes until the mixture turns a deep red color.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Remove from heat and stir in the defrosted peas.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Transfer the mixture to a cast iron dish.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Drain and mash the boiled potatoes with butter and milk.",
+
+            "instructions10": "Step 10 :",
+            "instructions10_1": "Spread the mashed potatoes over the meat mixture and top with grated parmesan cheese.",
+
+            "instructions11": "Step 11 :",
+            "instructions11_1": "Bake at 175°C (350°F) for 45 minutes.",
+
+            "instructions12": "Step 12 :",
+            "instructions12_1": "Garnish with basil and serve."        
+    },
+        "techniques": "The recipe for Classic English Shepherd's Pie on Peanut Swirls includes the technique of \"cooking the ground meat mixture until it’s browned and the vegetables are tender.\" This step helps develop rich flavors and ensures that the meat and vegetables are properly cooked before topping them with mashed potatoes.",
+        "facts":"Shepherd's Pie is considered a quintessential British comfort food, often served in homes and pubs alike. It is particularly popular during the colder months and is often made in large batches to feed families."
+    },
+    {
+        "name":"Fish and Chips",
+        "image": "images/fish and chips.jpg",
+        "description": "A classic British dish featuring battered and deep-fried fish (typically cod or haddock) served with thick-cut fries, often accompanied by mushy peas and tartar sauce.",
+        "recipe": {
+            "ingredients":[
+                "7 tablespoons (55 grams) all-purpose flour",
+                "7 tablespoons (55 grams) cornstarch",
+                "1 teaspoon baking powder",
+                "Fine salt, to taste",
+                "Freshly ground black pepper, to taste",
+                "1/3 cup cold dark beer",
+                "1/3 cup cold sparkling water",
+                "4 (7-ounce) thick, white fish fillets",
+                "2 pounds potatoes",
+                "Vegetable oil"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Prepare the batter by mixing flour, cornstarch, and baking powder with salt and pepper.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Whisk in cold dark beer and sparkling water, then let the batter rest in the fridge.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Cut potatoes into sticks, simmer them for 3-4 minutes, then cool and refrigerate.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Season and pat dry the fish fillets.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Heat vegetable oil to 350°F.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Par-cook the chips for 2 minutes, then drain and set aside.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Coat the fish fillets in flour, dip them in the batter, and fry until golden and crispy.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Keep the fried fish warm in the oven while finishing the chips.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Increase the oil temperature to 400°F and fry the chips until golden and crisp.",
+
+            "instructions10": "Step 10 :",
+            "instructions10_1": "Drain the chips and season with salt.",
+
+            "instructions11": "Step 11 :",
+            "instructions11_1": "Serve the fish and chips with your preferred condiments and enjoy."
+    },
+        "techniques": "Cooking the chips in oil at a lower temperature for 2 minutes before the final fry helps to partially cook the potatoes, allowing them to become tender on the inside. When you increase the oil temperature and fry them a second time, this process ensures that the chips develop a crispy, golden exterior without burning, achieving the perfect texture and flavor.",
+        "facts":"British consumers eat an amazing 382 million portions of fish and chips every year! That's six servings per person per year."
+    },
+    {
+        "name":"Full English Breakfast",
+        "image": "images/full english breakfast.jpg",
+        "description": "A hearty breakfast consisting of bacon, sausages, eggs, baked beans, grilled tomatoes, mushrooms, and toast, often served with black pudding and hash browns.",
+        "recipe": {
+            "ingredients":[
+                "1 can beans Heinz",
+                "egg, beaten",
+                "4 breakfast sausage",
+                "4 slices back bacon",
+                "4 slices black pudding optional",
+                "1 cup mushrooms halved or sliced",
+                "2 small tomatoes halved",
+                "4 slices bread",
+                "4 eggs"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Heat up the beans over low heat in a small pot. Keep them warm on low.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Cook the sausages over medium to medium-low heat, turning occasionally until browned and cooked through.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "In the same pan, cook the bacon, flipping as needed until crispy.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Fry the blood pudding slices over medium heat for 3-4 minutes per side.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "In another pan, heat up a bit of oil and cook the mushrooms without moving until brown and caramelized.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Remove the mushrooms from the pan and briefly sear the cut side of the tomato.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Remove the tomato from the pan and season everything with salt and pepper.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Wipe the pan clean and heat up a bit of oil or butter over medium heat.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Fry the bread until golden, flipping and adding more oil or butter as needed. Remove and set aside.",
+
+            "instructions10": "Step 10 :",
+            "instructions10_1": "Fry the eggs to your liking in the same pan.",
+
+            "instructions11": "Step 11 :",
+            "instructions11_1": "Plate everything: sausages, bacon, black pudding, mushrooms, tomato, bread, and eggs. Then, serve and enjoy."
+        },
+        "techniques": "Cooking the mushrooms without moving them allows them to brown and caramelize, enhancing their flavor and texture. This method helps develop a rich, deep flavor and prevents the mushrooms from steaming, which can make them soggy.",
+        "facts":"The Full English Breakfast, also known as a \"fry-up\" has roots dating back to the 13th century. The meal became more popular during the Victorian era when it was seen as a hearty way to start the day, especially for the working class."
+    },
+    {
+        "name":"Bibimbap",
+        "image": "images/bibimbap.jpg",
+        "description": "Bibimbap is arguably one of the most well-known Korean dishes around the world. What makes this meal stand out? Not only is it a Korean classic, but it's also delicious, beautifully colorful, and easily tweaked for endless variations.",
+        "recipe": {
+            "ingredients":[
+              	"2 cups medium-grain Korean, or Japanese rice",
+                "1 large cucumber, sliced into thin strips",
+                "1 1/2 cups mung bean sprouts",
+                "2 pandan leaves, knotted",
+                "1 teaspoon salt, divided, more as needed",
+                "4 teaspoons sesame oil, divided, more as needed",
+                "2 dashes sesame seeds, divided",
+                "1 pound spinach",
+                "2 medium carrots, sliced into thin strips",
+                "10 shiitake mushrooms, rehydrated if dried, sliced",
+                "1 medium zucchini, sliced into thin strips",
+                "1/2 pound cooked beef, optional",
+                "Fried or medium-soft boiled eggs, optional",
+                "Gochujang, or red pepper paste, for serving"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Get ready to bring the vibrant flavors of Korea into your kitchen by making bibimbap.",
+              
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Start by preparing the essential components, including perfectly cooked rice and sautéed vegetables.",
+              
+            "instructions3": "Step 3 :",
+            "instructions3_1": "With everything prepped, assembling your bibimbap will be easy and quick.",
+              
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Follow the classic recipe or add your own twist to make it your own.",
+              
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Use this step-by-step guide to help you create a delicious, authentic meal."
+        },
+        "techniques": "With our ingredients prepped, it's time to dive into the essential techniques that make bibimbap special. From cooking the rice just right to sautéing the vegetables, these simple steps will help you create a dish that's both authentic and delicious.",
+
+        "facts":"Before we dive in, here are some fun facts about bibimbap! Did you know that this dish dates back to the 16th century? Or that it was traditionally eaten on the eve of the Lunar New Year to use up leftover ingredients? These little tidbits add extra flavor to an already fascinating dish!"
+    },
+    {
+        "name":"Korean Cold Noodle Soup (Mul Naengmyeon)",
+        "image": "images/coldnoodle.jpg",
+        "description": "Mul Naengmyeon is a refreshing Korean cold noodle soup, perfect for hot summer days. It features chewy buckwheat noodles served in an icy, tangy broth made from beef or radish water kimchi, and is topped with slices of cold beef, cucumbers, pickled radish, and a boiled egg. The dish is typically customized with spicy mustard and vinegar for an extra kick.",
+        "recipe": {
+            "ingredients":[
+                "2 cups cold chicken broth",
+                "2 cups cold unsalted beef broth",
+                "2 tablespoons white vinegar",
+                "1 tablespoon brown rice vinegar",
+                "Salt to taste, optional",
+                "1/4 pound naeng myun noodles",
+                "1 large hard-boiled egg, sliced in half",
+                "1/2 Korean cucumber, seeded and julienned or cut into paper-thin slices",
+                "1 small Asian pear, julienned or cut into paper-thin slices",
+                "1/4 cup pickled radish",
+                "6 thin slices cooked brisket, or beef shank, optional",
+                "Ice cubes, for serving",
+                "Vinegar, sugar, and Korean mustard paste, optional, for serving"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Prepare yourself to cool off with Mul Naengmyeon, a refreshing Korean cold noodle soup.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Start by cooking chewy naengmyeon noodles and chilling a tangy broth made from a blend of chicken and beef stock.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Garnish the dish with crisp cucumber, sweet Asian pear, pickled radish, and optional slices of beef.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Serve the noodles with ice cubes to keep the dish frosty and refreshing.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Customize your bowl with vinegar, sugar, and Korean mustard paste for an extra burst of flavor.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Enjoy creating and eating this delightful, revitalizing meal!"
+        },
+        "techniques": "Now, let's explore the key techniques for making Mul Naengmyeon. We'll focus on preparing the chilled broth, cooking the naengmyeon noodles to the perfect texture, and assembling the dish with crisp, fresh ingredients. With these steps, you'll create a beautifully balanced and refreshing cold noodle soup.",
+
+        "facts":" Before we start, here are some intriguing facts about Mul Naengmyeon! This refreshing dish is a summer staple in Korea, enjoyed for its cooling properties and light flavors. Traditionally, it was served as a way to celebrate special occasions like birthdays and holidays. The unique combination of cold broth and chewy noodles has been a beloved part of Korean cuisine for decades."
+    },
+    {
+        "name":"Spicy Carrot Kimchi",
+        "image": "images/spicy-carrot.jpg",
+        "description": " Spicy Carrot Kimchi is a vibrant Korean side dish that combines the crunch of fresh carrots with the bold flavors of garlic, ginger, and Korean red pepper flakes. Fermented for a few days, it offers a tangy, spicy kick that pairs perfectly with rice, noodles, or as a flavorful topping for various dishes.",
+        "recipe": {
+            "ingredients":[
+                "1 1/2 tablespoons kosher salt, or another non-iodized salt",
+                "3 cups filtered water",
+                "1/2 teaspoon fish sauce, or soy sauce",
+                "3/4 pound carrots, peeled",
+                "1/4 pound daikon radish, peeled",
+                "1 teaspoon grated fresh ginger",
+                "1 large scallion, white parts and half of the green parts, thinly sliced",
+                "1 to 2 cloves garlic, thinly sliced",
+		"1/2 teaspoon red pepper flakes, more to taste"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Prepare to make a zesty and crunchy Spicy Carrot Kimchi, a twist on the classic Korean side dish.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Combine fresh carrots and daikon radish with ginger, garlic, scallions, and red pepper flakes.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Mix the ingredients thoroughly to coat the vegetables with the flavorful spices.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Allow the mixture to ferment for a quick period, creating a tangy, spicy kimchi.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Enjoy your kimchi as a flavorful addition to any meal."
+        },
+        "techniques": "To make this kimchi, we'll focus on a few essential techniques: creating a brine to soften the vegetables, preparing a flavorful spice paste, and ensuring proper fermentation. These steps will help you achieve the perfect balance of crunch, spice, and tanginess in your kimchi.",
+        "facts":"Did you know that kimchi comes in over 200 varieties? While cabbage is the most common base, carrots and daikon radish offer a crisp and refreshing alternative. Traditionally, kimchi was made in large batches and stored in underground pots to ferment through the winter. The probiotics in kimchi not only enhance flavor but also support gut health, making it a tasty and beneficial addition to your diet."
+    },
+    {
+        "name":"Kimchi Bokumbap: Kimchi Fried Rice",
+        "image": "images/kimchi-fried.jpg",
+        "description": "Kimchi Bokkeumbap, or Kimchi Fried Rice, is a quick and flavorful Korean dish made by stir-frying day-old rice with tangy, fermented kimchi, vegetables, and your choice of protein. Often topped with a fried egg, this savory and spicy dish is a comforting way to use up leftovers while delivering bold flavors in every bite.",
+        "recipe": {
+            "ingredients":[
+                "1/2 tablespoons unsalted butter, or oil, divided",
+                "1/4 cup kimchi (preferably made with napa cabbage) drained and chopped",
+                "2 tablespoons sweet onion, chopped",
+                "1 large clove garlic, chopped (about 1 teaspoon)",
+                "3/4 teaspoon soy sauce",
+                "1 ounce thinly sliced beef, such as tenderloin",
+                "3/4 cup cooked rice, cold",
+                "Kosher salt, to taste",
+		"1 large fried egg",
+		"1/4 scallion, chopped"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Prepare your ingredients: chop the kimchi, slice the beef, and mince the garlic and onion.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Heat 2 tablespoons of oil in a large skillet or wok over medium-high heat.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add the sliced beef and cook until browned and cooked through, about 5 minutes.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Remove the beef from the skillet and set aside.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "In the same skillet, add 1 tablespoon of oil. Add the minced garlic and onion, and sauté until golden brown, about 4 minutes.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Add the chopped kimchi and stir-fry for another 2 minutes.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Add 2 cups of cooked rice to the skillet and mix well with the kimchi and onions.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Return the cooked beef to the skillet and stir everything together. Season with salt and pepper to taste.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "In a separate pan, fry an egg to your liking. Serve the Kimchi Bokkeumbap topped with the fried egg. Enjoy your meal!"
+        },
+        "techniques": "To make perfect Kimchi Bokkeumbap, focus on these key techniques: cooking the beef to a tender texture, sautéing aromatics like onion and garlic until fragrant, and stir-frying the kimchi and rice for optimal flavor. Ensuring each ingredient is well-combined and heated through will give you a delicious, balanced fried rice.",
+        "facts":"Did you know that Kimchi Bokkeumbap is a great way to use up leftover rice and kimchi? This dish not only reduces food waste but also turns simple ingredients into a flavorful meal. Kimchi Bokkeumbap often features in Korean households as a quick and satisfying meal, and its spicy, tangy flavor is a favorite among many."
+    },
+    {
+        "name":"Korean Rice Cake Soup (Duk Guk)",
+        "image": "images/cake-soup.jpg",
+        "description": "Duk Guk is a classic Korean soup traditionally served during the Lunar New Year. It features tender, thinly sliced rice cakes simmered in a savory beef or anchovy broth, often garnished with sliced beef, green onions, and egg. This comforting dish is enjoyed for its rich flavor and symbolic meaning, representing the addition of a year to one's age and wishing for good fortune in the coming year.",
+        "recipe": {
+            "ingredients":[
+                "1/4 pound Korean duk (flat oval rice cakes)",
+                "1 cup beef broth, chicken broth, or anchovy broth",
+                "1 large onion , halved and finely sliced",
+                "1/2 cup water",
+                "Soy sauce, to taste",
+                "Freshly ground black pepper, to taste",
+                "1 large egg, cooked in a thin omelet and sliced into thin strips",
+                "1/4 to 1/2 sheet dried seaweed, roasted and cut into thin strips",
+		"Scallions, thinly sliced, for garnish"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Soak the thinly sliced rice cakes in water for 30 minutes to soften.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a large pot, bring 6 cups of beef broth to a boil.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add the soaked rice cakes to the boiling broth and simmer for about 10 minutes, until the rice cakes are tender.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "While the soup is simmering, cook thinly sliced beef in a separate pan until fully cooked. Set aside.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Fry an egg in a separate pan and set aside.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Season the soup with salt and pepper to taste.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Ladle the soup into bowls. Garnish with cooked beef, the fried egg, and shredded seaweed.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Serve hot and enjoy this traditional Korean dish!"
+        },
+        "techniques": "To make delicious Duk Guk, focus on these essential techniques: preparing a rich broth as the base, cooking the rice cakes until tender, and creating a thin omelet for added texture. Proper seasoning and garnishing with scallions and seaweed will enhance the flavors and presentation, ensuring a flavorful and well-balanced soup.",
+        "facts":"Did you know that Duk Guk is traditionally eaten during the Lunar New Year in Korea to symbolize adding a year to one's age? The dish is believed to bring good luck and prosperity for the coming year. Rice cakes, known as tteok, are a staple in Korean cuisine, and the soup's clear broth highlights their delicate flavor. The dish also showcases the Korean tradition of blending simple ingredients to create comforting and meaningful meals."
+    },
+    {
+        "name":"Raw Vegan Thai Coconut Soup (Tom Kha)",
+        "image": "images/tom-kha.jpg",
+        "description": "Raw Vegan Thai Coconut Soup (Tom Kha) is a vibrant and refreshing soup that captures the essence of traditional Thai flavors using raw ingredients. Made with raw coconut milk and infused with aromatic lemongrass, kaffir lime leaves, and fresh vegetables, this chilled soup offers a cool and healthy twist on the classic Tom Kha, perfect for a light and flavorful meal.",
+        "recipe": {
+            "ingredients":[
+                "1 young coconut",
+                "4 cloves garlic",
+                "2 teaspoons minced fresh ginger, or galangal",
+                "3 tablespoons lime juice",
+                "2 teaspoons cold pressed olive oil, or hemp or flax oil",
+                "1 teaspoon curry powder",
+                "1 medium tomato",
+                "1/4 teaspoon salt",
+                "1/2 teaspoon cayenne pepper, or to taste",
+                "2 tablespoons chopped cilantro",
+                "Bell pepper, diced, optional",
+                "Cherry tomatoes, chopped, optional",
+                "Mushrooms, thinly sliced, optional"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Open the young coconut and scoop out the flesh and water. Set aside.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a blender, combine the coconut flesh, coconut water, garlic, fresh ginger, and lime juice. Blend until smooth.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Taste and adjust the seasoning, adding more lime juice if needed.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Stir in curry powder to taste and blend again if necessary.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Optionally, add thinly sliced vegetables to the soup for extra texture and flavor.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Chill the soup in the refrigerator before serving.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Serve cold and enjoy this refreshing Raw Vegan Coconut Soup!"
+        },
+        "techniques": "To create a vibrant Raw Vegan Thai Coconut Soup, focus on these key techniques: blending young coconut with garlic, ginger, and lime juice to build a creamy, flavorful base. Infuse the soup with curry powder and adjust the seasoning with salt and cayenne pepper.",
+
+        "facts":"Did you know that Raw Vegan Thai Coconut Soup (Tom Kha) offers a nutrient-rich alternative to the traditional cooked version? Using young coconut provides healthy fats and electrolytes, while fresh ginger and lime juice add anti-inflammatory properties and a zesty kick."
+    },
+    {
+        "name":"Classic Thai Fish Cakes",
+        "image": "images/thai-fish.jpg",
+        "description": "Classic Thai Fish Cakes (Tod Mun Pla) are crispy patties made from cod fillets mixed with coconut milk, fish sauce, and aromatic spices like chili powder, cumin, and coriander. Fresh ingredients such as lime leaves, green onions, galangal, and garlic enhance the flavor. These patties are fried until golden and typically served with a tangy cucumber relish and a sweet-spicy dipping sauce.",
+        "recipe": {
+            "ingredients":[
+                "1 pound cod fillets, or other white fish",
+                "3 tablespoons coconut milk",
+                "2 1/2 tablespoons fish sauce",
+                "1/2 tablespoon chili powder",
+                "1/2 teaspoon ground cumin",
+                "1/4 teaspoon ground coriander",
+                "1/2 teaspoon brown sugar",
+                "1/2 cup breadcrumbs",
+                "6 whole makrut lime leaves, cut into thin strips, or 1/2 teaspoon grated lime zest",
+                "2 green onions, thinly sliced",
+                "1 (1-inch) piece galangal, or fresh ginger, grated",
+                "3 cloves garlic",
+                "1 red chile pepper, minced, or 1/8 to 1/4 teaspoon dried crushed red pepper",
+        "1 to 2 tablespoons peanut oil, for frying"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "In a food processor, combine cod fillets, 1/2 cup coconut milk, finely chopped fresh lime leaves, and spices. Blend until smooth.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Transfer the mixture to a bowl and shape it into small cakes or patties.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Heat vegetable oil in a frying pan over medium heat.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Fry the fish cakes in batches until golden brown and crispy, about 3-4 minutes per side.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Remove the fish cakes from the pan and drain on paper towels.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Prepare a tangy cucumber relish and a sweet-spicy dipping sauce for serving.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Serve the fish cakes with the cucumber relish and dipping sauce. Enjoy your authentic Thai dish!"
+        },
+        "techniques": "To make Classic Thai Fish Cakes, blend cod fillets with coconut milk and spices to create a smooth paste. Mix in fresh ingredients like lime leaves and green onions, then shape into patties and fry until golden and crispy. These techniques ensure flavorful and well-textured fish cakes ready to enjoy with traditional sides.",
+
+        "facts":" Did you know that Classic Thai Fish Cakes are a popular Thai street food known for their crispy texture and aromatic flavor? Ingredients like makrut lime leaves and galangal give them a unique taste. Often enjoyed as appetizers, they reflect the rich and vibrant flavors of Thai cuisine."
+    },
+    {
+        "name":"Pineapple Chicken Thai Fried Rice",
+        "image": "images/thai-rice.jpg",
+        "description": " Pineapple Chicken Thai Fried Rice is a vibrant Thai dish that combines tender chicken pieces with sweet pineapple chunks, vegetables, and jasmine rice. Stir-fried with a blend of spices and a tangy sauce, this dish delivers a harmonious mix of savory and sweet flavors, topped with raisins, cashews, and fresh cilantro for added texture and freshness.",
+        "recipe": {
+            "ingredients":[
+                "For the Chicken:",
+                "1 chicken breast (or 1 to 1 1/2 thighs), chopped into small pieces",
+                "1/4 tablespoon soy sauce",
+                "For the Stir-Fry Sauce:",
+                "1 tablespoon pineapple juice",
+                "1 1/4 tablespoons fish sauce",
+                "1/4 teaspoon sugar",
+                "1/6 teaspoon turmeric",
+                "1/8 teaspoon coriander",
+                "1/8 teaspoon cumin",
+                "For the Stir-Fry:",
+                "1 to 1 1/2 tablespoons vegetable oil",
+                "1 1/2 tablespoons minced onion",
+                "1 to 2 cloves garlic, minced",
+                "1/2 fresh red or green chile, minced, or 1/4 teaspoon dried crushed chile",
+                "1/4 teaspoon whole cumin seeds",
+                "1/2 small carrot, finely sliced",
+                "1 large egg",
+                "2 to 2 1/2 cups cooked white jasmine rice",
+                "3/4 cup fresh or canned pineapple chunks",
+                "1 1/2 tablespoons chopped raisins",
+                "2 tablespoons frozen peas",
+                "2 tablespoons dry roasted, unsalted cashews",
+                "1/4 bunch fresh cilantro, chopped, for garnish"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Prepare the ingredients: dice the chicken, chop the vegetables, and cut the pineapple into chunks.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Heat 2 tablespoons of oil in a large skillet or wok over medium-high heat.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Add the diced chicken to the skillet and cook until browned and cooked through, about 5-6 minutes.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Remove the chicken from the skillet and set aside.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "In the same skillet, add another tablespoon of oil. Add the chopped vegetables and stir-fry for about 3 minutes until tender.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Add the cooked chicken and pineapple chunks to the skillet. Stir to combine.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Add 4 cups of cooked jasmine rice to the skillet, along with a tangy sauce (such as soy sauce or fish sauce). Stir-fry everything together until well combined and heated through.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Stir in raisins and cashews, and cook for another 2 minutes.",
+
+            "instructions9": "Step 9 :",
+            "instructions9_1": "Garnish with fresh cilantro before serving.",
+
+            "instructions10": "Step 10 :",
+            "instructions10_1": "Serve the Pineapple Chicken Thai Fried Rice hot and enjoy the delightful balance of sweet, savory, and spicy flavors!"
+        },
+        "techniques": "To make Pineapple Chicken Thai Fried Rice, marinate and cook the chicken, then stir-fry with onion, garlic, and chile. Add vegetables, scramble an egg, and mix in cooked rice, pineapple, and raisins. Season with a tangy sauce and finish with cashews and cilantro for a delicious, balanced dish.",
+        "facts":"Did you know that Pineapple Chicken Thai Fried Rice adds a tropical twist to classic Thai fried rice? The sweet pineapple complements the savory chicken and spices, creating a unique balance of flavors that showcases the creativity of Thai cuisine."
+    },
+    {
+        "name":"Tropical Thai Coconut-Tapioca Pudding",
+        "image": "images/thai-pudding.jpg",
+        "description": "Tropical Thai Coconut-Tapioca Pudding is a classic Thai dessert featuring tender tapioca pearls cooked in creamy coconut milk. This sweet and silky pudding is finished with a touch of syrup and can be garnished with fresh mango for a tropical twist.",
+        "recipe": {
+            "ingredients":[
+                "1/2 cup (4 ounces) tapioca seed, or Asian pearl tapioca",
+                "3 cups water, divided",
+                "1/8 teaspoon fine salt",
+                "1 (13.5-ounce) can coconut milk, or \"lite\" coconut milk",
+                "Table syrup, or maple syrup, for serving",
+                "1 fresh mango, sliced, optional"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Soak 1/2 cup of tapioca pearls in water for about 30 minutes.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "In a pot, bring 2 cups of coconut milk to a simmer over medium heat.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Drain the soaked tapioca pearls and add them to the simmering coconut milk.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Cook the mixture, stirring frequently, for about 15-20 minutes until the tapioca pearls are translucent and the pudding has thickened.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Sweeten the pudding with 1/4 cup of sugar or to taste.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Remove from heat and let the pudding cool to room temperature.",
+
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Serve the pudding chilled, topped with fresh mango slices and a drizzle of syrup if desired.",
+
+            "instructions8": "Step 8 :",
+            "instructions8_1": "Enjoy this refreshing and satisfying Coconut-Tapioca Pudding!"
+        },
+        "techniques": "To make Tropical Thai Coconut-Tapioca Pudding, start by soaking the tapioca pearls in water to soften them. Cook the pearls with a pinch of salt in simmering water until they become translucent. Then, add coconut milk and continue to cook until the pudding thickens. Sweeten with table syrup or maple syrup and serve with fresh mango if desired.",
+        "facts":" Did you know that Tropical Thai Coconut-Tapioca Pudding is a popular Thai dessert known for its creamy texture and subtle sweetness? The tapioca pearls absorb the coconut milk, creating a rich and satisfying treat. It's often enjoyed chilled and can be garnished with tropical fruits like mango for an extra burst of flavor.."
+    },
+    {
+        "name":"Easy and Versatile Mango Sauce",
+        "image": "images/thai-sauce.jpg",
+        "description": "Easy and Versatile Mango Sauce is a vibrant and adaptable sauce featuring ripe mangoes blended with garlic, coconut milk, and Thai seasonings. With a balance of sweetness, heat, and tanginess, it enhances everything from grilled meats to seafood and can be adjusted to suit your taste.",
+        "recipe": {
+            "ingredients":[
+                "2 large ripe mangoes",
+                "3 cloves garlic, minced",
+                "1/4 cup thick coconut milk",
+                "2 tablespoons fish sauce, or 1 tablespoon soy sauce",
+                "2 tablespoons Thai sweet chili sauce",
+                "2 tablespoons brown sugar",
+                "1 tablespoon lime juice",
+                "1/4 to 1/2 teaspoon dried crushed chile pepper",
+		"1/4 teaspoon turmeric"
+            ],
+            "instructions1": "Step 1 :",
+            "instructions1_1": "Peel and dice 2 ripe mangoes and place them in a blender.",
+
+            "instructions2": "Step 2 :",
+            "instructions2_1": "Add 2 cloves of garlic, 1/2 cup of coconut milk, and Thai seasonings (such as fish sauce, lime juice, and chili flakes) to the blender.",
+
+            "instructions3": "Step 3 :",
+            "instructions3_1": "Blend the mixture until smooth.",
+
+            "instructions4": "Step 4 :",
+            "instructions4_1": "Taste and adjust the seasoning if needed, adding more lime juice or chili flakes to suit your preference.",
+
+            "instructions5": "Step 5 :",
+            "instructions5_1": "Transfer the mango sauce to a serving dish or jar.",
+
+            "instructions6": "Step 6 :",
+            "instructions6_1": "Use the sauce as a condiment for meats, seafood, or other dishes, adding a sweet, spicy, and tangy kick.",
+            
+            "instructions7": "Step 7 :",
+            "instructions7_1": "Enjoy this versatile Mango Sauce with your favorite dishes!"
+        },
+        "techniques": "To make Easy and Versatile Mango Sauce, blend ripe mangoes with minced garlic and coconut milk until smooth. Stir in fish sauce (or soy sauce), Thai sweet chili sauce, brown sugar, lime juice, dried crushed chile pepper, and turmeric. Adjust seasoning to taste and use the sauce to complement a wide range of dishes.",
+        "facts":"Did you know that Easy and Versatile Mango Sauce is a delightful mix of sweet, spicy, and tangy flavors? Made with fresh mangoes and aromatic Thai ingredients, it adds a tropical twist to your meals. This sauce can be used in various dishes, from grilled chicken to seafood, making it a versatile addition to your culinary repertoire."
+    },
+    {
+        "name":"Croissant",
+        "image": "images/croissant.png",
+        "description": " This recipe is from James Martin",
+        "description1":"Crossiant has become a staple food for many in France, as it is another variety of bread that have many ways to serve.",
+        "description2":"The process is hard and time consuming, but does not need one to be an expert to make one and it is very tasty and crispy. Making it worth the effort to make it.",
+        "recipe": {
+            "ingredients":[
+                "500g strong white flour, plus extra for dusting",
+                "1 ½ tsp salt",
+                "50g sugar",
+                "2 x 7g sachets fast-action dried yeast",
+                "oil, for greasing",
+                "300g butter, at room temperature",
+                "1 egg, beaten"
+
+            ],
+            "instructions": "THIS IS A HARD PROCESS, DON'T FEEL DOWN IF YOU FAIL",
+            "instructions1":"Step 1:",
+            "instructions1_1":"Put the flour, salt and sugar in a mixing bowl. Measure 300ml cold water into a bowl, add the yeast and stir. Make a well in the flour and pour in the liquid. Mix, then knead for 10 mins. Shape into a ball, put in a lightly oiled bowl, cover and chill for at least 2 hrs.",
+
+            "instructions2":"Step 2:",
+            "instructions2_1":"Put the butter between 2 sheets of baking parchment. Using a rolling pin, bash and roll it into a rectangle about 20 x 15cm. Leave wrapped in the baking parchment and chill.",
+
+            "instructions3":"Step 3:",
+            "instructions3_1":"Transfer the chilled dough to a floured surface and roll into a 40 x 20cm rectangle. Place the unwrapped slab of butter in the centre of the dough, so that it covers the middle third.",
+            
+            "instructions4":"Step 4:",
+            "instructions4_1":"Fold one side of the dough up and halfway over the butter.",
+
+            "instructions5":"Step 5:",
+            "instructions5_1":"Fold the other side of the dough up and over the butter in the same way, so that the two edges of the dough meet in the centre of the butter.",
+
+            "instructions6":"Step 6:",
+            "instructions6_1":"Fold the dough in half so that the point where the ends of the dough meet becomes the seam. Wrap in cling film and chill for 30 mins.",
+
+            "instructions7":"Step 7:",
+            "instructions7_1":"Repeat the rolling, folding and chilling process (steps 3-6) twice more in exactly the same way, rolling the pastry while it’s still folded – without adding more butter. Wrap and chill overnight.",
+
+            "instructions8":"Step 8:",
+            "instructions8_1":"The next day, roll the dough out on a floured surface into a large rectangle, measuring about 60 x 30cm. Using a sharp knife or pizza cutter, trim the edges to neaten.",
+
+            "instructions9":"Step 9:",
+            "instructions9_1":"Cut the dough in half lengthways so that you have 2 long strips, then cut each strip into 6 or 7 triangles with 2 equal sides.",
+
+            "instructions10":"Step 10:",
+            "instructions10_1":"Take each triangle in turn and pull the two corners at the base to stretch and widen it.",
+
+            "instructions11":"Step 11:",
+            "instructions11_1":"Starting at the base of each triangle, begin to gently roll into a croissant, being careful not to crush the dough.",
+
+            "instructions12":"Step 12:",
+            "instructions12_1":"Continue rolling, making sure the tip of each triangle ends up tucked under the croissant to hold in place. If adding any fillings, place across the widest part of the triangle before rolling up.",
+
+            "instructions13":"Step 13:",
+            "instructions13_1":"Bend the ends of the croissants inwards, then transfer to baking trays lined with baking parchment, spaced well apart. Cover with lightly oiled cling film and leave to rise for 2 hrs, or until doubled in size.",
+
+            "instructions14":"Step 14:",
+            "instructions14_1":"Heat oven to 200C/180C fan/gas 6. Mix the beaten egg with a pinch of salt and use to generously glaze the croissants. Bake for 15-18 mins until risen and golden brown, then cool on wire racks."                                            
+        },
+        "techniques": "Key technique for making croissants is the lamination process. This involves folding and rolling the dough with layers of butter to create the flaky texture. Keep everything cool and handle the dough as little as possible to avoid melting the butter and compromising the layers.",
+        "facts":"The word \"croissant\" means \"crescent\" in French, reflecting the pastry's distinctive crescent shape. The name is derived from the shape of the kipferl, a crescent-shaped bread roll from Austria that inspired the modern croissant."
+    },
+    {
+        "name":"Crepes",
+        "image": "images/crepes.jpg",
+        "description": "This recipe is from JENNYC819",
+        "description1":"Crepes healthy and is very easy to make using easy to find ingredients and provide so much variety of toppings.",
+        "description2":" If you only have some minutes, lazy to buy groceries, and wanting to make something to eat, try crepes!",
+        "recipe": {
+            "ingredients":[
+                "2 large eggs",
+                "½ cup milk",
+                "½ cup water",
+                "¼ teaspoon salt",
+                "oil, for greasing",
+                "1 cup all-purpose flour",
+                "2 tablespoons butter, melted"
+
+            ],
+            "instructions1":"Step 1:",
+            "instructions1_1":"Whisk eggs, milk, water, and salt together in a large mixing bowl. Then add flour and butter and whisk vigorously until smooth.",
+
+            "instructions2":"Step 2:",
+            "instructions2_1":"Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the pan, using approximately 1/4 cup for each crêpe. Tilt the pan with a circular motion so that the batter coats the surface evenly.",
+
+            "instructions3":"Step 3:",
+            "instructions3_1":"Cook until the top of the crêpe is no longer wet and the bottom has turned light brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen the crêpe. Then, flip and cook until the other side has turned light brown, about 1 minute more.",
+            
+            "instructions4":"Done! Serve it hot."
+           
+        },
+        "techniques": "For perfect crepes, let the batter rest before cooking. This allows the flour to fully absorb the liquid, resulting in a smoother, more pliable batter that cooks evenly.",
+        "facts":"Crepes have been enjoyed for centuries. The earliest known recipes for crepe-like dishes date back to ancient Greece and Rome, where they were made with grains and water."
+    },
+    {
+        "name":"Souffle",
+        "image": "images/souffle.jpg",
+        "description": " A souffle is a light, airy dish made from a flavorful base—often a mixture of eggs, milk, and flavorings—combined with whipped egg whites to give it a fluffy texture.",
+        "description1":"When baked, it puffs up and forms a delicate, golden crust while remaining soft and moist inside.",
+        "description2":"Souffle is easy to follow through the recipe yet it is hard to succeed",
+        "recipe": {
+            "ingredients":[
+                "2 tbsp ( 30 mL ) butter",
+                "2 tbsp ( 30 mL ) all-purpose flour",
+                "½ tsp ( 2.5 mL ) salt",
+                "Pinch of pepper",
+                "¾ cup ( 175 mL ) milk (1%)",
+                "4 egg yolks",
+                "¼ tsp ( 1.25 mL ) cream of tartar",
+                "2 egg whites"
+
+            ],
+            "instructions": "THIS IS A HARD PROCESS, DON'T FEEL DOWN IF YOU FAIL",
+            "instructions1":"Step 1:",
+            "instructions1_1":"Preheat oven to 375° F (190° C).",
+
+            "instructions2":"Step 2:",
+            "instructions2_1":"Melt butter in medium saucepan over low heat. Stir in flour, salt and pepper. Cook, stirring constantly, until mixture is smooth and bubbly. Stir in milk all at once. Continue stirring until mixture boils and is smooth and thickened.",
+
+            "instructions3":"Step 3:",
+            "instructions3_1":"Separate eggs. Beat yolks well and add ¼ cup (50 mL) of warm sauce mixture to egg yolks.",
+            
+            "instructions4":"Step 4:",
+            "instructions4_1":"Combine yolk mixture with remaining sauce, blending thoroughly. If desired, add finely chopped filling ingredients, stirring into white sauce until blended (see variations). Set sauce aside to cool slightly.",
+
+            "instructions5":"Step 5:",
+            "instructions5_1":"Beat egg whites and cream of tartar in large bowl, until stiff but not dry. Fold some of the egg whites into sauce to make it lighter, then gently but thoroughly fold the sauce into the remaining egg whites.",
+
+            "instructions6":"Step 6:",
+            "instructions6_1":"Carefully pour into 4-cup (1 L) soufflé or casserole dish.",
+
+            "instructions7":"Step 7:",
+            "instructions7_1":"Bake in preheated 375° F (190° C) oven until puffed and lightly browned, 20 to 25 minutes or until done.",
+
+            "instructions8":"Done! serve immediatly."        
+        
+        },
+        "techniques": "The key to a successful souffle is gently folding the whipped egg whites into the base and baking it at a consistent temperature to achieve maximum rise and a delicate texture.",
+        "facts":"in 1783, Antoine Beauvilliers establishes the first high-end Parisian restaurant, the Grande Taverne de Londres. With several souffles on his menu, the French chef is often credited as the \"inventor of souffle.\""
+    },
+    {
+        "name":"Tarte Tatin",
+        "image": "images/tartetatin.jpg",
+        "description": "One of the historical dishes in French. This is the origin of apple pie.",
+        "description1":" Tarte Tatin is a dessrt heavy cuisine with high calorine. But it is hard to resist as a occasional delight",
+        "description2":"The process requires effort, but is not that hard to go through the process.",
+        "recipe": {
+            "ingredients":[
+                "150 gr puff or short crust party",
+                "a little flour for rolling out",
+                "70 gr unrefined (golden) caster sugar or light muscovado sugar",
+                "25 gr butter",
+                "5-7 firm tart apples, preferably Granny Smith (or 6-8 Williams pears)",
+                "80 gr unrefined (golden) caster sugar",
+                "a pinch of cinnamon or apple pie spice mix (optional)"
+
+            ],
+            "instructions": "",
+            "instructions1":"CAUTION! READ BEFORE STARTING",
+            "instructions1_1":"The process requires you to flip the entire pan SWIFTLY. Make sure your plate is 4-5cm bigger than the pan to avoid liquid flowing out. Also make sure your pan handle is hot higher than the pan itself for easier flipping experience.",
+
+            "instructions2":"Step 1:",
+            "instructions2_1":"Heat the oven to 190 C.",
+
+            "instructions3":"Step 2:",
+            "instructions3_1":"Lightly flour the work surface and a rolling pin. Roll out the pastry to 3-4 mm thick and cut a circle that is 2-3 cm larger than the pan you will be making the tart in. Transfer to a large plate or a baking sheet lined with baking paper and a little flour. Chill until needed.",
+            
+            "instructions4":"Step 3:",
+            "instructions4_1":"Put the sugar for the caramel into the tatin pan on the hob over medium heat. Allow it to caramelise to a golden amber. Don’t stir and don’t let it go too dark, or the caramel will be bitter. Remember this will cook further in the oven.",
+
+            "instructions5":"Step 4:",
+            "instructions5_1":"Turn off the heat and stir the butter for the caramel into the caramel. Then, set aside.",
+
+            "instructions6":"Step 5:",
+            "instructions6_1":"Peel and core the apples. Halve them or cut them into quarters. Arrange the apples tightly into the tatin pan on top of the caramel, cut side to rounded side.",
+
+            "instructions7":"Step 6:",
+            "instructions7_1":"Dot the apples with the diced butter and sprinkle over the cinnamon or pie spices (if using) and the remaining sugar.",
+
+            "instructions8":"Step 7:",
+            "instructions8_1":"Bake for 25 mins. Remove from the oven and set aside for 5 mins or so. Then top the apples loosely with the chilled pastry, gently tucking any excess pastry inside the pan. It does not need to look perfect and you’re not trying to get the pastry to stick to the pan. On the contrary.",
+
+            "instructions9":"Step 8:",
+            "instructions9_1":"Prick the pastry once or twice with a meat fork or sharp knife, or create a little funnel hole in the centre of the pastry to let any excess steam escape.",
+
+            "instructions10":"Step 9:",
+            "instructions10_1":"Return the tatin to the oven for 30 mins or until the pastry is golden and puffed up. Remove from the oven and let the tatin rest for 30-40 mins.",
+
+            "instructions11":"Step 10:",
+            "instructions11_1":"Place a flat serving dish upside down onto the tatin pan. Using oven gloves, grab hold of both the pan and the plate with both hands and quickly flick them over in one smooth motion.",
+
+            "instructions12":"Done! Serve without or with a cream of your choice."
+        
+        },
+        "techniques": "Is important for the caramel to have the right consistency. The caramel should be deep amber and smooth before adding the apples; this ensures it will set properly and provide a rich, caramelized flavor to the tart.",
+        "facts":"Tarte Tatin was invented by accident by the Tatin sisters, Stéphanie and Caroline, in the late 19th century. They ran a hotel and restaurant in Lamotte-Beuvron, France. According to the popular story, Stéphanie Tatin was preparing an apple tart but accidentally left the apples cooking in butter and sugar too long. When she realized her mistake, she decided to cover the overcooked apples with pastry dough and bake it all together. After baking, she inverted the tart, revealing a deliciously caramelized apple topping. The result was so well-received that it became a signature dish of their restaurant, and eventually, the Tarte Tatin became a classic French dessert."
+    },
+    {
+        "name":"Coq au Vin",
+        "image": "images/coqauvin.jpg",
+        "description": "This recipe is from Amy Johnson",
+        "description1":"Somehow Coq au Vin is not a common dish in French restaurants, but only available in fancy restaurants.",
+        "description2":"This is easily one of the tastiest and easy to make dishes you will ever experience. It is regretful to not eat this.",
+        "recipe": {
+            "ingredients":[
+                "2 tablespoons olive oil",
+                "1 cup all-purpose flour",
+                "salt and pepper",
+                "3-4 pound whole bone-in chicken cut-up",
+                "3 tablespoon butter (or more olive oil)",
+                "1 pound mushrooms, sliced",
+                "3 cups chopped onion",
+                "1/2 pound carrots cut into 1-inch pieces",
+                "1 teaspoon minced garlic",
+                "1/2 teaspoon dried thyme",
+                "1/2 teaspoon salt",
+                "1/2 teaspoon ground black pepper",
+                "1 cup dry red wine",
+                "1 cup chicken stock",
+                "1/4 cup minced fresh parsley",
+                "1 bay leaf"
+
+            ],
+            "instructions": "",
+            "instructions1":"Step 1:",
+            "instructions1_1":"Preheat oven to 325-degrees F.",
+
+            "instructions2":"Step 2:",
+            "instructions2_1":"In a dutch oven or heavy bottomed oven proof pan/baking dish, heat oil over medium-high heat.",
+
+            "instructions3":"Step 3:",
+            "instructions3_1":"Salt and pepper chicken on both sides. Lightly dredge chicken in flour. When oil is heated, add chicken to pan; brown each piece for about 1-2 minutes each side. Remove chicken and set aside.",
+            
+            "instructions4":"Step 4:",
+            "instructions4_1":"Add butter to pan, scraping up any bits from bottom of pan.",
+
+            "instructions5":"Step 5:",
+            "instructions5_1":"Add mushroom and cook, stirring occasionally, for 5 minutes.",
+
+            "instructions6":"Step 6:",
+            "instructions6_1":"Add onions, carrots, garlic, thyme salt, and pepper. Cook, stirring occasionally, for 5 minutes.",
+
+            "instructions7":"Step 7:",
+            "instructions7_1":"Stir in wine, chicken stock, parsley and bay leaf. Add chicken, tucking into sauce.",
+
+            "instructions8":"Step 8:",
+            "instructions8_1":"Cover and transfer to oven. Cook at 325-degrees F for 2 1/2 hours.",
+
+            "instructions9":"Step 9:",
+            "instructions9_1":" If sauce is not thick enough, remove chicken and cook sauce on stovetop over medium-high heat until slightly reduced and desired thickness.",
+
+            "instructions10":"Done! Enjoy."
+        
+        },
+        "techniques": "MUST braise the chicken slowly. This involves cooking the chicken in red wine (and often a bit of stock) along with aromatics, mushrooms, and bacon over low heat for several hours. This slow cooking process allows the flavors to meld, tenderizes the meat, and ensures that the chicken becomes infused with the rich, complex flavors of the wine and other ingredients.",
+        "facts":"Coq au Vin is that traditionally, it was made with rooster (coq in French), but due to the rarity and cost of rooster, modern recipes commonly use chicken."
+    },
+    {
+        "name":"Taco",
+        "image": "images/taco.jpg",
+        "description": "This recipe is from Yumna Jawad",
+        "description1":"This is literally the symbol of Mexico, classic taco dish. Something that can be enjoyed in a family setting.",
+        "description2":"The recipe will be specifically for ground beef as toppings, you can put in topping of your choice. It is pretty easy to make too!",
+        "recipe": {
+            "ingredients":[
+                "8 Corn or flour tortillas",
+                "Lettuce, finely chopped",
+                "Shredded Mexican cheese blend or cheddar cheese",
+                "Tomatoes, chopped",
+                "Chopped red onions",
+                "1 tablespoon olive oil",
+                "1 pound lean ground beef",
+                "2 teaspoons chili powder",
+                "2 teaspoons cumin",
+                "½ teaspoon oregano",
+                "½ teaspoon garlic powder",
+                "½ teaspoon salt",
+                "½ teaspoon black pepper",
+                "2 tablespoons tomato paste",
+                "½ cup water"
+
+            ],
+            "instructions1":"Step 1:",
+            "instructions1_1":"Heat the olive oil in skillet over medium high heat. Add the ground beef and cook until browned, about 5-7 minutes. Drain any fat.",
+
+            "instructions2":"Step 2:",
+            "instructions2_1":"Add the chili powder, cumin, dried oregano, garlic powder, salt, pepper, tomato paste and water. Stir to combine and continue cooking over medium-low heat until the sauce has thickened, about 3-5 minutes",
+
+            "instructions3":"Step 3:",
+            "instructions3_1":"Serve warm over tortillas with lettuce, tomatoes, cheese and red onions, or your other desired toppings.",
+            
+            "instructions4":"Done! Serve any time."
+
+        },
+        "techniques": "Recommended to toast the tortillas. This step enhances their flavor and texture by making them slightly crispy and more pliable, which helps in holding the fillings and adds a layer of depth to the overall taste.",
+        "facts":"Tacos come in numerous regional varieties across Mexico, each with distinct ingredients and flavors, such as Tacos al Pastor from Mexico City, Tacos de Carnitas from Michoacán, and Tacos de Pescado from Baja California."
+    },
+    {
+        "name":"Tamale",
+        "image": "images/tamale.jpg",
+        "description": "Recipe is shared by SADDIECAT.",
+        "description1":"Tamale are something like a surprise box, with large variety of fillings and yet gives an actually good taste.",
+        "description2":"Tamale are usually found during festivals or areas near Latin America. So why wait when you can make one?",
+        "recipe": {
+            "ingredients":[
+                "1 ¼ pounds pork loin",
+                "1 large onion, halved",
+                "1 clove garlic",
+                "4 dried chile peppers",
+                "2 cups water",
+                "1 ½ teaspoons salt (for sauce)",
+                "1 (8 ounce) package dried corn husks",
+                "⅔ cup lard",
+                "1 (10.5 ounce) can beef broth, or as needed",
+                "2 cups masa harina",
+                "1 teaspoon baking powder",
+                "½ teaspoon salt (for husk and dough)",
+                "1 cup sour cream"
+
+            ],
+            "instructions": "",
+            "instructions1":"You can change meat types of your choice",
+
+            "instructions2":"Step 1:",
+            "instructions2_1":"Make the filling: Place pork, onion, and garlic in a Dutch oven. Add enough water to cover and bring to a boil. Reduce heat to low and simmer until pork is cooked through, about 2 hours.",
+
+            "instructions3":"Step 2:",
+            "instructions3_1":"Meanwhile, make chile sauce: Use rubber gloves to remove stems and seeds from chiles. Place chiles in a saucepan with 2 cups water. Simmer, uncovered, for 20 minutes. Remove from heat and cool.",
+            
+            "instructions4":"Step 3:",
+            "instructions4_1":"Transfer chiles and cooking water to a blender and blend until smooth. Strain mixture into a bowl and stir in salt. Then, set aside.",
+
+            "instructions5":"Step 4:",
+            "instructions5_1":"Shred cooked pork and mix in 1 cup chile sauce. Reserve remaining sauce for serving.",
+
+            "instructions6":"Step 5:",
+            "instructions6_1":"Prepare husks and dough: Soak corn husks in a bowl of warm water until softened, about 30 minutes.",
+
+            "instructions7":"Step 6:",
+            "instructions7_1":"While the husks are soaking, beat lard with 1 tablespoon broth until fluffy.",
+
+            "instructions8":"Step 7:",
+            "instructions8_1":"Combine masa harina, baking powder, and salt in a separate bowl; stir into the lard mixture, adding more broth as needed to form a spongy dough.",
+
+            "instructions9":"Step 8:",
+            "instructions9_1":"Remove husks from water and pat dry. Spread dough out over husks to 1/4- to 1/2-inch thick.",
+
+            "instructions10":"Step 9:",
+            "instructions10_1":"Place 1 tablespoon pork filling over center of each. Fold the sides, top, and bottom of each husk in toward the center to enclose dough.",
+
+            "instructions11":"Step 10:",
+            "instructions11_1":"Arrange tamales in a steamer basket. Place over simmering water and steam for 1 hour.",
+
+            "instructions12":"Step 12:",
+            "instructions12_1":"Remove tamales from husks. Drizzle with remaining chile sauce and top with sour cream, or mix sour cream into chile sauce first for a creamy sauce.",
+
+            "instructions13":"Done! Enjoy."
+        
+        },
+        "techniques": "IMPORTANT! The masa (corn dough) should be spread evenly and thinly on the corn husks or banana leaves to ensure consistent cooking and a good texture. Additionally, the filling should be placed in the center and the husks should be folded tightly around the masa to create a secure package. This wrapping technique is crucial for keeping the tamales compact and ensuring that they cook evenly and retain moisture.",
+        "facts":"Tamale have been a part of Latin American cuisine for over 5,000 years, with evidence suggesting that the Aztecs and Mayans used tamales as portable, nutritious food for warriors and travelers."
+    },
+    {
+        "name":"Burrito",
+        "image": "images/burrito.jpg",
+        "description": "Recipe is shared by Cassie Best.",
+        "description1":"Similar to how taco is prepared, except that one burrito has bigger single portion size that is enough for a meal. Perfect for those who do not know what to pack for a meal.",
+        "description2":"BELOW RECIPE ARE FOR 4 SERVINGS (1.5 burritos per person)",
+        "recipe": {
+            "ingredients":[
+                "1 tbsp vegetable oil",
+                "1 red or white onion OR 4 spring onions, chopped",
+                "400g mixed vegetables of your choice (carrots, red pepper and sweetcorn used in this recipe)",
+                "200g leftover chicken, chopped into small chunks",
+                "2 x 250g packs ready-cooked lime & coriander rice (you can use your daily rice if not possible)",
+                "400g can red kidney beans in chilli sauce",
+                "6 large wraps",
+                "1 avocado, chopped",
+                "100g grated cheddar",
+                "1 egg, beaten"
+              
+            ],
+            "instructions": "",
+            "instructions1":"You can change meat types of your choice",
+
+            "instructions2":"Step 1:",
+            "instructions2_1":"Heat the oil in a large pan. Add the onion and cook for 5 mins until soft, then add your chosen veggies and continue cooking for another 5-10 mins or until tender. Add the leftover meat, the rice and beans, along with the sauce from the can. Stir everything together and cook for 5 mins until piping hot.",
+
+            "instructions3":"Step 2:",
+            "instructions3_1":"Heat another frying pan, or a griddle pan, until hot, and heat oven to 140C/120C fan/gas 2. Now assemble the burritos. Warm a wrap for 10 secs on the hot pan (keep the pan hot, you’ll need to use it again).",
+            
+            "instructions4":"Step 3:",
+            "instructions4_1":"Pile roughly a sixth of the rice mixture onto the centre of the wrap. Top with a little avocado and some cheese, then brush beaten egg around the edge. Fold the ends over the filling, then fold in the sides, like an envelope.",
+
+            "instructions5":"Step 4:",
+            "instructions5_1":"Flatten a little to a parcel, then place, seam-side down, in the hot pan. Cook for 2 mins until the underside has sealed shut and is toasted a golden brown, flip over and cook for a few mins more.",
+
+            "instructions6":"Step 5:",
+            "instructions6_1":"Keep the burrito warm in the oven while you continue assembling and cooking the remaining burritos.",
+
+            "instructions7":"Done! You can serve with sour cream as an option."
+
+        },
+        "techniques": "Proper wrapping helps to keep all the fillings contained and prevents spills, making the burrito easier to handle and eat.",
+        "facts":"Burrito get its name comes from the Spanish word burro, meaning \"donkey,\" which is thought to refer to the way the wrapped tortilla resembles the packed bundles carried by donkeys."
+    },
+    {
+        "name":"Mole",
+        "image": "images/mole.jpg",
+        "description": "Recipe is shared by Kevin.",
+        "description1":"Mole to some might be their best sauce they had, and it is unique because it has chocolate in it.",
+        "description2":"The ingredients are a bit much to prepare and takes some time, but those are the only hard part.",
+        "recipe": {
+            "ingredients":[
+                "5 dried ancho chilies, stems and seeds removed",
+                "5 dried guajillo chilies, stems and seeds removed",
+                "5 dried pasilla chiles, stems and seeds removed",
+                "1/2 cup raisins",
+                "1/2 pound plum tomatoes",
+                "1/2 pound tomatillos, husks removed and rinsed",
+                "1 large onion, cut into wedges",
+                "8 cloves garlic",
+                "1/4 cup sesame seeds",
+                "1/4 cup pepitas",
+                "1/4 cup peanuts",
+                "1/4 cup almonds",
+                "1 tablespoon oil",
+                "1 ripe plantain (or banana), peeled and cut into 1/2 inch slices",
+                "4 cloves",
+                "1 star anise",
+                "1 (1 inch) stick of cinnamon",
+                "3 allspice berries",
+                "1 tablespoon cumin seeds",
+                "1 tablespoon coriander seeds",
+                "1 tablespoon peppercorns",
+                "2 tablespoons oil",
+                "1 teaspoon oregano",
+                "1 corn tortilla, torn into small pieces",
+                "1 (2 ounce) tablet Mexican chocolate, chopped",
+                "1/4 cup coconut palm sugar (or brown sugar)",
+                "1 teaspoon salt"
+
+            ],
+            "instructions": "",
+            "instructions1":"You can change meat types of your choice",
+
+            "instructions2":"Step 1:",
+            "instructions2_1":"Lightly toast the chilies in a heavy bottom skillet over medium-high heat. Cover it with just boiled water, along with the raisins and let soak until tender, about 20-30 minutes, before removing from the water, reserving the water.",
+
+            "instructions3":"Step 2:",
+            "instructions3_1":"Meanwhile, lightly char the tomatoes, tomatillos, onion, and garlic under the broiler (or in a heavy bottomed killet over medium-high heat, or on the grill or over direct flame) before setting aside.",
+            
+            "instructions4":"Step 3:",
+            "instructions4_1":"Meanwhile, lightly toast the sesame seeds, pepitas, peanuts and almonds and set aside.",
+
+            "instructions5":"Step 4:",
+            "instructions5_1":"Heat the oil in a pan over medium-high heat, add the plantains and cook until golden brown, about 2-3 minutes per side, and set aside.",
+
+            "instructions6":"Step 5:",
+            "instructions6_1":"Puree the chilies, raisins, tomatoes, tomatillos, onion, garlic, sesame seeds, pepitas, peanuts, almonds, and plantain in a food processor or blender until smooth.",
+
+            "instructions7":"Step 6:",
+            "instructions7_1":"Lightly toast the cloves, star anise, cinnamon, allspice, cumin, coriander, and peppercorns in a skillet before ginding in a grinder.",
+
+            "instructions8":"Step 7:",
+            "instructions8_1":"Heat the oil in a large pan over medium heat, add the pureed sauce, ground spices, oregano, tortilla, chocolate, sugar and salt, bring to a boil. Reduce the heat and simmer until the tortilla has disitegrated into the sauce and the sauce thickens a bit, about 10 minutes.",
+
+            "instructions9":"Step 8 (Optional):",
+            "instructions9_1":"Puree in a food processor or blender a second time and strain through a fine mess sieve for a smoother sauce.",
+
+            "instructions10":"Done!"
+        
+        },
+        "techniques": "It is important to grind the spices and dried chiles into as close as fine powder. This develops deep, complex flavors and contributes to the rich, layered taste characteristic of mole sauce.",
+        "facts":"Chocolate act as the main ingredient, which adds depth and complexity to its flavor profile. Mole poblano, one of the most famous varieties, traditionally incorporates Mexican chocolate along with a mix of chiles, spices, and other ingredients to create its distinctive rich and savory taste."
+    },
+    {
+        "name":"Pozole",
+        "image": "images/pozole.jpg",
+        "description": "Recipe is shared by MAKINZE GORE.",
+        "description1":"This is a spicy soup that is meant to eat in a cold atmosphere that provide a comfortable and cozy feeling.",
+        "description2":"This dish requires A LOT of time to cook, but that is the only downside of the dish.",
+        "recipe": {
+            "ingredients":[
+                "3 lb. pork shoulder, cut into 2\" pieces",
+                "Kosher salt",
+                "Freshly ground black pepper",
+                "1 large yellow onion, quartered",
+                "3 cloves garlic, sliced",
+                "4 c. low-sodium chicken broth",
+                "1 tsp. cumin seeds",
+                "1 bay leaf",
+                "2 dried ancho chiles, stem and seeds removed",
+                "2 dried chiles de árbol, stem and seeds removed",
+                "2 dried guajillo chiles, stem and seeds removed",
+                "3 (15-oz.) cans hominy, drained, rinsed",
+                "Thinly sliced radishes, thinly sliced green cabbage, and chopped fresh cilantro, for serving"
+
+            ],
+            "instructions": "",
+            "instructions1":"AGIAN, this recipe takes A LOT of time, prepare this dish in advance.",
+
+            "instructions2":"Step 1:",
+            "instructions2_1":"Lightly toast the chilies in a heavy bottom skillet over medium-high heat.In a large bowl, season pork with salt and pepper. In a large pot over medium heat, combine pork, onion, garlic, broth, cloves, cumin seeds, and bay leaf. Add enough water to cover pork by 2\". Bring to a boil, then cover, reduce heat to medium-low, and bring to a simmer. Cook, skimming foam off top as needed, 1 hour 30 minutes.",
+
+            "instructions3":"Step 2:",
+            "instructions3_1":"Meanwhile, in a medium heatproof bowl, soak chiles in 2 cups boiling water for 30 minutes.",
+            
+            "instructions4":"Step 3:",
+            "instructions4_1":"Transfer chiles and about 1/2 cup soaking liquid to a blender. Blend until smooth, adding more water as needed.",
+
+            "instructions5":"Step 4:",
+            "instructions5_1":"Add chile puree and hominy to pot with pork. Cover and continue to simmer, stirring occasionally, until pork is very tender, about 1 hour 30 minutes more; season with salt and pepper.",
+
+            "instructions6":"Step 5:",
+            "instructions6_1":"Top pozole with radishes, cabbage, and cilantro.",
+
+            "instructions7":"Done! Let it simmer for as long as possible, you can even leave it while you went for work."
+        
+        },
+        "techniques": "The reason why we left it to simmer as long as possible beause it allows the flavors to meld and the hominy to absorb the rich, savory broth, resulting in a deeply flavorful and hearty stew. Proper simmering ensures the meat becomes tender and the hominy achieves the right texture, contributing to the overall quality of the pozole.",
+        "facts":"Pozole has a deep historical roots, dating back to pre-Columbian Mesoamerican cultures, where it was traditionally made with human or animal meat in ceremonial contexts. Today, it is commonly enjoyed with pork or chicken and is a staple in Mexican cuisine, particularly during celebrations and holidays."
+    }
+]
